@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner">
+  <meta name="keywords" content="Model compression, Post-training Quantization">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics, Tutorial: https://support.google.com/analytics/answer/9539598?hl=en -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-013J1QWBLD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-013J1QWBLD');
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">
+              <!-- <img src="static/images/microphone.png" style="width:1em;vertical-align: middle" alt="Logo"/> -->
+              <span>Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner</span>
+            </h1>
+            <h1 style="color:#5a6268;font-size: 1.25em;">AAAI 2025</h1><br>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://ezharjan.github.io" target="_blank">Aizierjiang Aiersilan</a>
+              </span>
+            </div>
+            <div class="is-size-5 publication-authors"></div><br />
+            <span class="author-block">University of Macau</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="column has-text-centered">
+      <div class="publication-links">
+        <!-- PDF Link. -->
+        <span class="link-block">
+          <a href="https://arxiv.org/pdf/2412.COMING_SOON" class="external-link button is-normal is-rounded is-dark"
+            target="_blank">
+            <span class="icon">
+              <i class="fas fa-file-pdf"></i>
+            </span>
+            <span>Paper</span>
+          </a>
+        </span>
+        <span class="link-block">
+          <a href="https://arxiv.org/abs/2412.COMING_SOON" class="external-link button is-normal is-rounded is-dark"
+            target="_blank">
+            <span class="icon">
+              <i class="ai ai-arxiv"></i>
+            </span>
+            <span>arXiv</span>
+          </a>
+        </span>
+        <!-- Video Link. -->
+        <span class="link-block">
+          <a href="https://www.youtube.com/watch?v=COMING_SOON"
+            class="external-link button is-normal is-rounded is-dark" target="_blank">
+            <span class="icon">
+              <i class="fab fa-youtube"></i>
+            </span>
+            <span>Video</span>
+          </a>
+        </span>
+        <!-- Code Link. -->
+        <span class="link-block">
+          <a href="https://github.com/Ezharjan/AutoSceneGen" class="external-link button is-normal is-rounded is-dark"
+            target="_blank">
+            <span class="icon">
+              <i class="fab fa-github"></i>
+            </span>
+            <span>Code</span>
+          </a>
+        </span>
+        <!-- Dataset Link. -->
+        <span class="link-block">
+          <a href="https://github.com/Ezharjan/AutoSceneGen/Dataset"
+            class="external-link button is-normal is-rounded is-dark" target="_blank">
+            <span class="icon">
+              <i class="fas fa-database"></i>
+            </span>
+            <span>Dataset</span>
+          </a>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Abstract. -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Motion planning is a crucial component in autonomous driving. State-of-the-art motion planners are trained
+              on meticulously curated datasets, which are not only expensive to annotate but also insufficient in
+              capturing rarely seen critical scenarios. Failing to account for such scenarios poses a significant risk
+              to motion planners and may lead to incidents during testing. An intuitive solution is to manually compose
+              such scenarios by programming and executing a simulator (e.g., CARLA). However, this approach incurs
+              substantial human costs. Motivated by this, we propose an inexpensive method for generating diverse
+              critical traffic scenarios to train more robust motion planners. First, we represent traffic scenarios as
+              scripts, which are then used by the simulator to generate traffic scenarios. Next, we develop a method
+              that accepts user-specified text descriptions, which a Large Language Model (LLM) translates into scripts
+              using in-context learning.
+              The output scripts are sent to the simulator that produces the corresponding traffic scenarios. As our
+              method can generate abundant safety-critical traffic scenarios, we use them as synthetic training data for
+              motion planners. To demonstrate the value of generated scenarios, we train existing motion planners on our
+              synthetic data, real-world datasets, and a combination of both.
+              Our experiments show that motion planners trained with our data significantly outperform those trained
+              solely on real-world data, showing the usefulness of our synthetic data and the effectiveness of our data
+              generation method.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Abstract. -->
+
+  <section class="section" id="BibTeX">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths" style="position: relative;">
+        <h2 class="title">BibTeX</h2>
+        <div class="content has-text-justified" style="position: relative;">
+          <pre>
+                    <code id="bibtexContent">
+@article{aizierjiang2024autoscene,
+    title={Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner},
+    author={Aizierjiang Aiersilan},
+    journal={arXiv preprint arXiv:2412.COMING_SOON},
+    year={2024}
+}</code>
+                </pre>
+          <div class="copy-icon" id="copyIcon" title="Copy to clipboard"
+            style="position: absolute; top: 10px; right: 10px; cursor: pointer; width: 36px; height: 36px;">
+            <svg height="100%" version="1.1" viewBox="0 0 36 36" width="100%">
+              <use class="ytp-svg-shadow" xlink:href="#ytp-id-28"></use>
+              <path class="ytp-svg-fill"
+                d="M21.9,8.3H11.3c-0.9,0-1.7,.8-1.7,1.7v12.3h1.7V10h10.6V8.3z M24.6,11.8h-9.7c-1,0-1.8,.8-1.8,1.8v12.3  c0,1,.8,1.8,1.8,1.8h9.7c1,0,1.8-0.8,1.8-1.8V13.5C26.3,12.6,25.5,11.8,24.6,11.8z M24.6,25.9h-9.7V13.5h9.7V25.9z"
+                id="ytp-id-28"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns has-text-centered">
+        <div class="column is-12">
+          <div class="content">
+            <p>
+              <script type='text/javascript' id='clustrmaps'
+                src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=EL--8XaCsnEUvdI8H2XObx_XRnO5DDyxSBv6qXS9p9k'></script>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+
+<script>
+  // Fetch the visitor's location using ipinfo.io API
+  // fetch('https://ipinfo.io/json?token=YOUR_TOKEN')
+  //   .then(response => response.json())
+  //   .then(data => {
+  //     console.log(data.country)
+  //     // Check if the visitor is from COUNTRY_NAME
+  //     if (data.country === 'COUNTRY_NAME') {
+  //       // Redirect to a 404 error page
+  //       window.location.href = '/404.html';
+  //     }
+  //   })
+  //   .catch(error => {
+  //     console.error('Error fetching location:', error);
+  //   });
+
+
+  document.getElementById('copyIcon').onclick = function () {
+    const content = document.getElementById('bibtexContent').innerText;
+    navigator.clipboard.writeText(content).then(() => {
+      // Create a temporary message element
+      const message = document.createElement('div');
+      message.innerText = 'BibTeX content copied to clipboard!';
+      message.style.position = 'fixed';
+      message.style.top = '50%';
+      message.style.left = '50%';
+      message.style.transform = 'translate(-50%, -50%)';
+      message.style.backgroundColor = '#4CAF50';
+      message.style.color = 'white';
+      message.style.padding = '10px';
+      message.style.borderRadius = '5px';
+      document.body.appendChild(message);
+
+      // Remove the message after 3 seconds
+      setTimeout(() => {
+        document.body.removeChild(message);
+      }, 1500);
+    }).catch(err => {
+      console.error('Error copying text: ', err);
+    });
+  };
+</script>
+
+
+</html>
