@@ -1,0 +1,10 @@
+ Time: 10:00 AM
+Weather: Sandstorm
+VehicleStates: Slow-moving
+Vehicle: 15
+PedestrianCount: 0
+PercentagePedestrianRunning: 0%
+VehicleDoors: Closed
+Location: Intersection
+Event: Sandstorm導致能見度降低，車輛減速行駛
+Severity: Low

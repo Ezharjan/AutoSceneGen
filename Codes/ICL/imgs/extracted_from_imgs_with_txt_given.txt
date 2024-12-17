@@ -1,0 +1,1080 @@
+(icl) D:\Proj\ICL>python extract_inco_from_imgs.py
+Generated text for img_CarAllDoorsOpened.jpg saved to img_CarAllDoorsOpened.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:34; Weather: sunny; VehicleStates: moving; Vehicle: 2; PedestrianCount: 0; PercentagePedestrianRunning: 0; VehicleDoors: Closed; Location: highway; Event: a car with its trunk open is driving on the highway; Severity: low.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:34; Weather: sunny; VehicleStates: moving; Vehicle: 2; PedestrianCount: 0; PercentagePedestrianRunning: 0; VehicleDoors: Closed; Location: highway; Event: a car with its trunk open is driving on the highway; Severity: low."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_CarDoorOpened.jpg saved to img_CarDoorOpened.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:34; Weather: sunny; VehicleStates: stopped; Vehicle: 2 cars; PedestrianCount: 0; PercentagePedestrianRunning: 0%; VehicleDoors: [Opened, Closed]; Location: road; Event: stopped vehicle; Severity: low.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:34; Weather: sunny; VehicleStates: stopped; Vehicle: 2 cars; PedestrianCount: 0; PercentagePedestrianRunning: 0%; VehicleDoors: [Opened, Closed]; Location: road; Event: stopped vehicle; Severity: low."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_CloudyWeather.jpg saved to img_CloudyWeather.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time:10:05; Weather:Rainy; VehicleStates:Moving; Vehicle:Bus+Car; PedestrianCount: 0; PercentagePedestrianRunning: 0; VehicleDoors: Closed; Location:Overpass; Event:None; Severity:None.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time:10:05; Weather:Rainy; VehicleStates:Moving; Vehicle:Bus+Car; PedestrianCount: 0; PercentagePedestrianRunning: 0; VehicleDoors: Closed; Location:Overpass; Event:None; Severity:None."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_ComplexTrafficAccident.jpg saved to img_ComplexTrafficAccident.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:00; Weather: Clear; VehicleStates: Crashed; Vehicle: Car; PedestrianCount: 15; PercentagePedestrianRunning: 40%; VehicleDoors: Closed; Location: New York City; Event: Car crash; Severity: High.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:00; Weather: Clear; VehicleStates: Crashed; Vehicle: Car; PedestrianCount: 15; PercentagePedestrianRunning: 40%; VehicleDoors: Closed; Location: New York City; Event: Car crash; Severity: High."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_DenseTraffic.jpg saved to img_DenseTraffic.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 17:34; Weather: Clear; VehicleStates: Congested; Vehicle: Bus, Taxi, Truck, Car; PedestrianCount: 12; PercentagePedestrianRunning: 0.25; VehicleDoors: Closed; Location: Istanbul, Turkey; Event: Traffic jam; Severity: Low.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 17:34; Weather: Clear; VehicleStates: Congested; Vehicle: Bus, Taxi, Truck, Car; PedestrianCount: 12; PercentagePedestrianRunning: 0.25; VehicleDoors: Closed; Location: Istanbul, Turkey; Event: Traffic jam; Severity: Low."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_DenseTrafficAccident.jpg saved to img_DenseTrafficAccident.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:00 AM
+Weather: Clear
+VehicleStates: Stationary
+Vehicle: Bus
+PedestrianCount: 10
+PercentagePedestrianRunning: 0%
+VehicleDoors: Closed
+Location: Dubai
+Event: Bus accident
+Severity: High
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:00 AM\nWeather: Clear\nVehicleStates: Stationary\nVehicle: Bus\nPedestrianCount: 10\nPercentagePedestrianRunning: 0%\nVehicleDoors: Closed\nLocation: Dubai\nEvent: Bus accident\nSeverity: High"
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_DustyWeather1.jpg saved to img_DustyWeather1.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:00 AM
+Weather: Sandstorm
+VehicleStates: In motion
+Vehicle: Bus, Van, Car
+PedestrianCount: 0
+PercentagePedestrianRunning: 0%
+VehicleDoors: Closed
+Location: Street
+Event: Sandstorm
+Severity: Low
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:00 AM\nWeather: Sandstorm\nVehicleStates: In motion\nVehicle: Bus, Van, Car\nPedestrianCount: 0\nPercentagePedestrianRunning: 0%\nVehicleDoors: Closed\nLocation: Street\nEvent: Sandstorm\nSeverity: Low"
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_DustyWeather2.jpg saved to img_DustyWeather2.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:00 AM
+Weather: Sandstorm
+VehicleStates: Slow-moving
+Vehicle: 15
+PedestrianCount: 0
+PercentagePedestrianRunning: 0%
+VehicleDoors: Closed
+Location: Intersection
+Event: Sandstorm導致能見度降低，車輛減速行駛
+Severity: Low
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:00 AM\nWeather: Sandstorm\nVehicleStates: Slow-moving\nVehicle: 15\nPedestrianCount: 0\nPercentagePedestrianRunning: 0%\nVehicleDoors: Closed\nLocation: Intersection\nEvent: Sandstorm導致能見度降低，車輛減速行駛\nSeverity: Low"
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_DustyWeather3.jpg saved to img_DustyWeather3.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:00; Weather: sandstorm; VehicleStates: stopped; Vehicle: 2; PedestrianCount: 0; PercentagePedestrianRunning: 0; VehicleDoors: Closed; Location: Street; Event: Sandstorm; Severity: Low.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:00; Weather: sandstorm; VehicleStates: stopped; Vehicle: 2; PedestrianCount: 0; PercentagePedestrianRunning: 0; VehicleDoors: Closed; Location: Street; Event: Sandstorm; Severity: Low."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_FoggyWeather.jpg saved to img_FoggyWeather.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 07:00; Weather: Foggy; VehicleStates: Moving; Vehicle: 3; PedestrianCount: 0; PercentagePedestrianRunning: 0.00; VehicleDoors: Closed; Location: On the road; Event: N/A; Severity: 0.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 07:00; Weather: Foggy; VehicleStates: Moving; Vehicle: 3; PedestrianCount: 0; PercentagePedestrianRunning: 0.00; VehicleDoors: Closed; Location: On the road; Event: N/A; Severity: 0."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_Hitting2Pedestrians.jpg saved to img_Hitting2Pedestrians.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:34:56; Weather: Rainy; VehicleStates: In motion; Vehicle: 1; PedestrianCount: 2; PercentagePedestrianRunning: 0%; VehicleDoors: Closed; Location: Intersection; Event: Vehicle approaching a crosswalk with pedestrians crossing; Severity: Low.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:34:56; Weather: Rainy; VehicleStates: In motion; Vehicle: 1; PedestrianCount: 2; PercentagePedestrianRunning: 0%; VehicleDoors: Closed; Location: Intersection; Event: Vehicle approaching a crosswalk with pedestrians crossing; Severity: Low."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_HittingCyclist.jpg saved to img_HittingCyclist.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:34; Weather: Clear; VehicleStates: Stationary; Vehicle: Car; PedestrianCount: 1; PercentagePedestrianRunning: 0; VehicleDoors: Closed; Location: Intersection; Event: Collision; Severity: High.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:34; Weather: Clear; VehicleStates: Stationary; Vehicle: Car; PedestrianCount: 1; PercentagePedestrianRunning: 0; VehicleDoors: Closed; Location: Intersection; Event: Collision; Severity: High."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_HittingPedestrian.jpeg saved to img_HittingPedestrian.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:34; Weather: sunny; VehicleStates: in motion; Vehicle: 1; PedestrianCount: 1; PercentagePedestrianRunning: 100%; VehicleDoors: Closed; Location: crosswalk; Event: A person was hit by a car while crossing the road at a crosswalk. The pedestrian was not seriously injured.; Severity: medium.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:34; Weather: sunny; VehicleStates: in motion; Vehicle: 1; PedestrianCount: 1; PercentagePedestrianRunning: 100%; VehicleDoors: Closed; Location: crosswalk; Event: A person was hit by a car while crossing the road at a crosswalk. The pedestrian was not seriously injured.; Severity: medium."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_HittingStudent.jpg saved to img_HittingStudent.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:34; Weather: Clear; VehicleStates: In motion; Vehicle: 1; PedestrianCount: 1; PercentagePedestrianRunning: 0%; VehicleDoors: Closed; Location: On the road; Event: A vehicle is passing a pedestrian; Severity: Low.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:34; Weather: Clear; VehicleStates: In motion; Vehicle: 1; PedestrianCount: 1; PercentagePedestrianRunning: 0%; VehicleDoors: Closed; Location: On the road; Event: A vehicle is passing a pedestrian; Severity: Low."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_RainyWeather.jpg saved to img_RainyWeather.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time:15:34; Weather:Rainy; VehicleStates:In motion; Vehicle:6; PedestrianCount: 0; PercentagePedestrianRunning: 0.00; VehicleDoors: Closed; Location:On the road; Event:None; Severity:None.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time:15:34; Weather:Rainy; VehicleStates:In motion; Vehicle:6; PedestrianCount: 0; PercentagePedestrianRunning: 0.00; VehicleDoors: Closed; Location:On the road; Event:None; Severity:None."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_SnowyWeather.jpg saved to img_SnowyWeather.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:34; Weather: Snowing; VehicleStates: In motion; Vehicle: 15; PedestrianCount: 0; PercentagePedestrianRunning: 0.00; VehicleDoors: Closed; Location: Snowy road; Event: Traffic jam; Severity: Low.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:34; Weather: Snowing; VehicleStates: In motion; Vehicle: 15; PedestrianCount: 0; PercentagePedestrianRunning: 0.00; VehicleDoors: Closed; Location: Snowy road; Event: Traffic jam; Severity: Low."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_SparseTraffic.jpg saved to img_SparseTraffic.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:00 AM
+Weather: Clear
+VehicleStates: In motion
+Vehicle: 15
+PedestrianCount: 0
+PercentagePedestrianRunning: 0%
+VehicleDoors: Closed
+Location: Sheikh Zayed Road, Dubai
+Event: Traffic Congestion
+Severity: Low
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:00 AM\nWeather: Clear\nVehicleStates: In motion\nVehicle: 15\nPedestrianCount: 0\nPercentagePedestrianRunning: 0%\nVehicleDoors: Closed\nLocation: Sheikh Zayed Road, Dubai\nEvent: Traffic Congestion\nSeverity: Low"
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_SparseTrafficAccident.jpg saved to img_SparseTrafficAccident.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time: 10:34; Weather: Clear; VehicleStates: Crashed; Vehicle: 3; PedestrianCount: 3; PercentagePedestrianRunning: 0%; VehicleDoors: [Opened]; Location: Intersection; Event: Collision; Severity: High.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time: 10:34; Weather: Clear; VehicleStates: Crashed; Vehicle: 3; PedestrianCount: 3; PercentagePedestrianRunning: 0%; VehicleDoors: [Opened]; Location: Intersection; Event: Collision; Severity: High."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]
+
+
+Generated text for img_SunnyWeather.jpg saved to img_SunnyWeather.txt
+This is a traffic scenario, please generate a report on this scenario. The template is: `Time:xxx; Weather:xxx; VehicleStates:xxx; Vehicle:xxx; PedestrianCount: xxx; PercentagePedestrianRunning: xxx; VehicleDoors: [Opened OR Closed]; Location:xxx; Event:xxx; Severity:xxx.` Note that if there is a traffic accident in the given image, the severity will be higher.
+Response Starts:
+********************************
+ Time:17:34; Weather: Clear; VehicleStates: In motion; Vehicle: 12; PedestrianCount: 0; PercentagePedestrianRunning: 0.00; VehicleDoors: Closed; Location: On a highway; Event: Heavy traffic; Severity: 1.
+********************************
+********* Response Ends ********
+### See if it was blocked due to safety concerns regarding the prompt:
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+
+### View the response candidates:
+[index: 0
+content {
+  parts {
+    text: " Time:17:34; Weather: Clear; VehicleStates: In motion; Vehicle: 12; PedestrianCount: 0; PercentagePedestrianRunning: 0.00; VehicleDoors: Closed; Location: On a highway; Event: Heavy traffic; Severity: 1."
+  }
+  role: "model"
+}
+finish_reason: STOP
+safety_ratings {
+  category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HATE_SPEECH
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_HARASSMENT
+  probability: NEGLIGIBLE
+}
+safety_ratings {
+  category: HARM_CATEGORY_DANGEROUS_CONTENT
+  probability: NEGLIGIBLE
+}
+citation_metadata {
+}
+]

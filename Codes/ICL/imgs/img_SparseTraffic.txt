@@ -1,0 +1,10 @@
+ Time: 10:00 AM
+Weather: Clear
+VehicleStates: In motion
+Vehicle: 15
+PedestrianCount: 0
+PercentagePedestrianRunning: 0%
+VehicleDoors: Closed
+Location: Sheikh Zayed Road, Dubai
+Event: Traffic Congestion
+Severity: Low

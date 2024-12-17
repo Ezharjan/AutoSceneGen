@@ -1,0 +1,1 @@
+ Time:10:05; Weather:Rainy; VehicleStates:Moving; Vehicle:Bus+Car; PedestrianCount: 0; PercentagePedestrianRunning: 0; VehicleDoors: Closed; Location:Overpass; Event:None; Severity:None.

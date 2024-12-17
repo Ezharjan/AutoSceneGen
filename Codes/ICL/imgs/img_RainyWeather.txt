@@ -1,0 +1,1 @@
+ Time:15:34; Weather:Rainy; VehicleStates:In motion; Vehicle:6; PedestrianCount: 0; PercentagePedestrianRunning: 0.00; VehicleDoors: Closed; Location:On the road; Event:None; Severity:None.

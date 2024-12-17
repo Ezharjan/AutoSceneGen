@@ -1,0 +1,1 @@
+ Time: 10:34; Weather: Clear; VehicleStates: In motion; Vehicle: 1; PedestrianCount: 1; PercentagePedestrianRunning: 0%; VehicleDoors: Closed; Location: On the road; Event: A vehicle is passing a pedestrian; Severity: Low.

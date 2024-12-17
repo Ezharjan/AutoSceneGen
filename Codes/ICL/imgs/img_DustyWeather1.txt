@@ -1,0 +1,10 @@
+ Time: 10:00 AM
+Weather: Sandstorm
+VehicleStates: In motion
+Vehicle: Bus, Van, Car
+PedestrianCount: 0
+PercentagePedestrianRunning: 0%
+VehicleDoors: Closed
+Location: Street
+Event: Sandstorm
+Severity: Low

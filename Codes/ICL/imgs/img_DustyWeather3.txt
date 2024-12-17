@@ -1,0 +1,1 @@
+ Time: 10:00; Weather: sandstorm; VehicleStates: stopped; Vehicle: 2; PedestrianCount: 0; PercentagePedestrianRunning: 0; VehicleDoors: Closed; Location: Street; Event: Sandstorm; Severity: Low.

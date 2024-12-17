@@ -1,0 +1,1 @@
+ Time:17:34; Weather: Clear; VehicleStates: In motion; Vehicle: 12; PedestrianCount: 0; PercentagePedestrianRunning: 0.00; VehicleDoors: Closed; Location: On a highway; Event: Heavy traffic; Severity: 1.

@@ -1,0 +1,1 @@
+ Time: 10:34; Weather: Snowing; VehicleStates: In motion; Vehicle: 15; PedestrianCount: 0; PercentagePedestrianRunning: 0.00; VehicleDoors: Closed; Location: Snowy road; Event: Traffic jam; Severity: Low.

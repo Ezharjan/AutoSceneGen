@@ -1,0 +1,1 @@
+ Time: 10:00; Weather: Clear; VehicleStates: Crashed; Vehicle: Car; PedestrianCount: 15; PercentagePedestrianRunning: 40%; VehicleDoors: Closed; Location: New York City; Event: Car crash; Severity: High.

@@ -1,0 +1,10 @@
+ Time: 10:00 AM
+Weather: Clear
+VehicleStates: Stationary
+Vehicle: Bus
+PedestrianCount: 10
+PercentagePedestrianRunning: 0%
+VehicleDoors: Closed
+Location: Dubai
+Event: Bus accident
+Severity: High

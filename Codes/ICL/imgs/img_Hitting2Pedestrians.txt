@@ -1,0 +1,1 @@
+ Time: 10:34:56; Weather: Rainy; VehicleStates: In motion; Vehicle: 1; PedestrianCount: 2; PercentagePedestrianRunning: 0%; VehicleDoors: Closed; Location: Intersection; Event: Vehicle approaching a crosswalk with pedestrians crossing; Severity: Low.

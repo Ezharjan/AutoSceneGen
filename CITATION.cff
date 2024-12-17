@@ -1,0 +1,14 @@
+cff-version: 1.1.0
+message: "If you use this framework, please cite it as below."
+authors:
+  - family-names: "Aiersilan"
+    given-names: "Aizierjiang"
+    profile: "https://ezharjan.github.io/"
+title: "Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner"
+version: 1.0.1
+identifiers:
+  - type: doi
+    value: COMING_SOON 
+    arxiv: "arXiv:2412.COMING_SOON"
+date-released: 2024-8-19
+url: "https://ezharjan.github.io/AutoSceneGen/"

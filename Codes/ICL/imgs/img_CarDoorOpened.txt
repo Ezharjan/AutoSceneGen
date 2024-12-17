@@ -1,0 +1,1 @@
+ Time: 10:34; Weather: sunny; VehicleStates: stopped; Vehicle: 2 cars; PedestrianCount: 0; PercentagePedestrianRunning: 0%; VehicleDoors: [Opened, Closed]; Location: road; Event: stopped vehicle; Severity: low.

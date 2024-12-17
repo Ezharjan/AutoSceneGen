@@ -1,0 +1,1 @@
+ Time: 10:34; Weather: Clear; VehicleStates: Stationary; Vehicle: Car; PedestrianCount: 1; PercentagePedestrianRunning: 0; VehicleDoors: Closed; Location: Intersection; Event: Collision; Severity: High.

@@ -1,0 +1,1 @@
+ Time: 10:34; Weather: sunny; VehicleStates: in motion; Vehicle: 1; PedestrianCount: 1; PercentagePedestrianRunning: 100%; VehicleDoors: Closed; Location: crosswalk; Event: A person was hit by a car while crossing the road at a crosswalk. The pedestrian was not seriously injured.; Severity: medium.

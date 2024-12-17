@@ -1,0 +1,1725 @@
+Version: 1
+Map: AU
+Date: 03/16/24 11:14:26
+
+Frame 1 at 0 seconds
+ Create 1: spectator (0) at (0, 0, 0)
+ Positions: 1
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+ State traffic lights: 0
+ Vehicle animations: 0
+ Walker animations: 0
+ Vehicle light animations: 0
+ Actor bounding boxes: 1
+  Id: 1 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+ Current platform time: 0.000308
+Frame 2 at 0.00184401 seconds
+ Positions: 1
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+ State traffic lights: 0
+ Vehicle animations: 0
+ Walker animations: 0
+ Vehicle light animations: 0
+ Actor bounding boxes: 0
+ Current platform time: 0.002111
+Frame 3 at 0.003944 seconds
+ Positions: 1
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+ State traffic lights: 0
+ Vehicle animations: 0
+ Walker animations: 0
+ Vehicle light animations: 0
+ Actor bounding boxes: 0
+ Current platform time: 0.004119
+Frame 4 at 0.00576371 seconds
+ Positions: 1
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+ State traffic lights: 0
+ Vehicle animations: 0
+ Walker animations: 0
+ Vehicle light animations: 0
+ Actor bounding boxes: 0
+ Current platform time: 0.007484
+Frame 5 at 0.00861137 seconds
+ Positions: 1
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+ State traffic lights: 0
+ Vehicle animations: 0
+ Walker animations: 0
+ Vehicle light animations: 0
+ Actor bounding boxes: 0
+ Current platform time: 0.00882
+Frame 6 at 0.0103913 seconds
+ Positions: 1
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+ State traffic lights: 0
+ Vehicle animations: 0
+ Walker animations: 0
+ Vehicle light animations: 0
+ Actor bounding boxes: 0
+ Current platform time: 0.010532
+Frame 7 at 0.0122562 seconds
+ Positions: 1
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+ State traffic lights: 0
+ Vehicle animations: 0
+ Walker animations: 0
+ Vehicle light animations: 0
+ Actor bounding boxes: 0
+ Current platform time: 0.012437
+Frame 8 at 0.0139728 seconds
+ Positions: 1
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+ State traffic lights: 0
+ Vehicle animations: 0
+ Walker animations: 0
+ Vehicle light animations: 0
+ Actor bounding boxes: 0
+ Current platform time: 0.014125
+Frame 9 at 0.01628 seconds
+ Positions: 1
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+ State traffic lights: 0
+ Vehicle animations: 0
+ Walker animations: 0
+ Vehicle light animations: 0
+ Actor bounding boxes: 0
+ Current platform time: 1.01805
+Frame 10 at 0.02628 seconds
+ Positions: 1
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+ State traffic lights: 0
+ Vehicle animations: 0
+ Walker animations: 0
+ Vehicle light animations: 0
+ Actor bounding boxes: 0
+ Current platform time: 1.02084
+Frame 11 at 0.03628 seconds
+ Positions: 1
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+ State traffic lights: 0
+ Vehicle animations: 0
+ Walker animations: 0
+ Vehicle light animations: 0
+ Actor bounding boxes: 0
+ Current platform time: 1.02216
+Frame 12 at 0.04628 seconds
+ Create 266: vehicle.ford.crown (1) at (-10468.8, 3468, 20)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 255,185,0
+  role_name = autopilot
+ Create 267: vehicle.dodge.charger_police (1) at (-8423, -1855, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,0,0
+  role_name = autopilot
+ Create 268: vehicle.citroen.c3 (1) at (-10878, -2116, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 217,217,217
+  role_name = autopilot
+ Create 269: vehicle.audi.a2 (1) at (-4999, 2822, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 168,0,27
+  role_name = autopilot
+ Create 270: vehicle.audi.etron (1) at (-11565, 2799, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 168,0,27
+  role_name = autopilot
+ Create 271: vehicle.audi.tt (1) at (-8098, 917, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 168,0,27
+  role_name = autopilot
+ Create 272: vehicle.bmw.grandtourer (1) at (-6959, 1242, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 109,109,109
+  role_name = autopilot
+ Create 273: vehicle.chevrolet.impala (1) at (-4778, -1323, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 61,86,143
+  role_name = autopilot
+ Create 274: vehicle.dodge.charger_2020 (1) at (-5288.98, 2135.51, 20)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 73,0,0
+  role_name = autopilot
+ Create 275: vehicle.dodge.charger_police_2020 (1) at (-5753.21, 970.308, 20)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,0,0
+  role_name = autopilot
+ Create 276: vehicle.ford.mustang (1) at (-8689, 3468, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 0,12,58
+  role_name = autopilot
+ Create 277: vehicle.jeep.wrangler_rubicon (1) at (-5056, 246.985, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 217,217,217
+  role_name = autopilot
+ Create 278: vehicle.lincoln.mkz_2017 (1) at (-6034.05, -2116.06, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 16,16,16
+  role_name = autopilot
+ Create 279: vehicle.lincoln.mkz_2020 (1) at (-5056, -1322.1, 20)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  driver_id = 0
+  object_type = 
+  color = 0,0,0
+  role_name = autopilot
+ Create 280: vehicle.mercedes.coupe (1) at (-5649.7, 3468, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 217,217,217
+  role_name = autopilot
+ Create 281: vehicle.mercedes.coupe_2020 (1) at (-4530.12, 774.486, 20)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 73,0,0
+  role_name = autopilot
+ Create 282: vehicle.micro.microlino (1) at (-11565, -1437, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 21,158,255
+  role_name = autopilot
+ Create 283: vehicle.mini.cooper_s_2021 (1) at (-10197, 1830.16, 20)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 73,0,0
+  role_name = autopilot
+ Create 284: vehicle.mini.cooper_s_2021 (1) at (-6958.34, -2136.99, 20)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 73,0,0
+  role_name = autopilot
+ Create 285: vehicle.nissan.micra (1) at (-9876.42, -2116.3, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 243,243,243
+  role_name = autopilot
+ Create 286: vehicle.nissan.patrol_2021 (1) at (-8364, 3143, 20)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 217,217,217
+  role_name = autopilot
+ Create 287: vehicle.nissan.patrol_2021 (1) at (-8114, 3143, 20)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 217,217,217
+  role_name = autopilot
+ Create 288: vehicle.seat.leon (1) at (-8689, 1505, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 42,61,214
+  role_name = autopilot
+ Create 289: vehicle.tesla.model3 (1) at (-7284, -1530, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 17,37,103
+  role_name = autopilot
+ Create 290: vehicle.toyota.prius (1) at (-7315, 1830, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 255,0,0
+  role_name = autopilot
+ Create 291: vehicle.carlamotors.carlacola (1) at (-7565, 1830, 20)
+  generation = 1
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 255,68,0
+  role_name = autopilot
+ Create 292: vehicle.carlamotors.firetruck (1) at (-9872.93, 1242, 20)
+  generation = 2
+  number_of_wheels = 4
+  sticky_control = true
+  object_type = 
+  color = 234,0,0
+  role_name = autopilot
+ Create 293: vehicle.tesla.cybertruck (1) at (-10201.3, -1529.84, 20)
+  object_type = 
+  number_of_wheels = 4
+  sticky_control = true
+  generation = 2
+  role_name = autopilot
+ Create 294: walker.pedestrian.0001 (2) at (-4206.44, -1407.88, 9.99999)
+  generation = 1
+  gender = female
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 295: walker.pedestrian.0002 (2) at (-5662.99, 1479.5, 9.99999)
+  generation = 1
+  gender = male
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 296: walker.pedestrian.0003 (2) at (-10497.7, -1483.92, 9.99999)
+  generation = 1
+  gender = male
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 297: walker.pedestrian.0004 (2) at (-9464.09, 2146.92, 9.99999)
+  generation = 1
+  gender = male
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 298: walker.pedestrian.0005 (2) at (-11511.7, -1605.76, 9.99999)
+  generation = 1
+  gender = female
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 299: walker.pedestrian.0006 (2) at (-8139.86, 1891.4, 9.99999)
+  generation = 1
+  gender = female
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 300: walker.pedestrian.0007 (2) at (-8356.86, 2076.57, 9.99999)
+  generation = 1
+  gender = female
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 301: walker.pedestrian.0008 (2) at (-11265.3, 2767.26, 9.99999)
+  generation = 1
+  gender = female
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 302: walker.pedestrian.0010 (2) at (-6454.43, 3451.06, 9.99999)
+  generation = 1
+  gender = female
+  age = child
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 303: walker.pedestrian.0011 (2) at (-4215.9, 997.11, 9.99999)
+  generation = 1
+  gender = female
+  age = child
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 304: walker.pedestrian.0012 (2) at (-11386.3, 2100.2, 9.99999)
+  generation = 1
+  gender = male
+  age = child
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 305: walker.pedestrian.0013 (2) at (-8425.17, 2364.33, 9.99999)
+  generation = 1
+  gender = male
+  age = child
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 306: walker.pedestrian.0014 (2) at (-10715.1, -630.543, 9.99999)
+  generation = 1
+  gender = male
+  age = child
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 307: walker.pedestrian.0015 (2) at (-5723.6, 2317.18, 9.99999)
+  generation = 2
+  gender = female
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 308: walker.pedestrian.0016 (2) at (-8328.41, 2235.99, 9.99999)
+  generation = 2
+  gender = male
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 309: walker.pedestrian.0018 (2) at (-8028.26, 1298.36, 9.99999)
+  generation = 2
+  gender = male
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 310: walker.pedestrian.0019 (2) at (-5249.44, 742.554, 9.99999)
+  generation = 2
+  gender = female
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 311: walker.pedestrian.0020 (2) at (-10334, 1693.27, 9.99999)
+  generation = 2
+  gender = female
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 312: walker.pedestrian.0021 (2) at (-8712.36, 2794.58, 9.99999)
+  generation = 2
+  gender = female
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 313: walker.pedestrian.0022 (2) at (-11058.3, -1684.89, 9.99999)
+  generation = 2
+  gender = female
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 314: walker.pedestrian.0024 (2) at (-6297.08, 2477.26, 9.99999)
+  generation = 2
+  gender = male
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Create 315: walker.pedestrian.0025 (2) at (-10589.3, -2194.4, 9.99999)
+  generation = 2
+  gender = male
+  age = adult
+  is_invincible = true
+  speed = 0.0
+  role_name = pedestrian
+ Positions: 51
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+  Id: 295 Location: (-5662.99, 1479.5, 180.951) Rotation (0, 0, 0)
+  Id: 313 Location: (-11058.3, -1684.89, 178.951) Rotation (0, 0, 0)
+  Id: 302 Location: (-6454.43, 3451.06, 57.15) Rotation (0, 0, 0)
+  Id: 309 Location: (-8028.26, 1298.36, 95.15) Rotation (0, 0, 0)
+  Id: 296 Location: (-10497.7, -1483.92, 178.951) Rotation (0, 0, 0)
+  Id: 303 Location: (-4257.02, 1014.41, 57.15) Rotation (0, 0, 0)
+  Id: 310 Location: (-5249.44, 742.554, 176.451) Rotation (0, 0, 0)
+  Id: 293 Location: (-10201.3, -1529.84, 19.902) Rotation (0, 0, 89.9276)
+  Id: 314 Location: (-6297.08, 2477.26, 266.951) Rotation (0, 0, 0)
+  Id: 304 Location: (-11386.3, 2100.2, 67.15) Rotation (0, 0, 0)
+  Id: 290 Location: (-7315, 1830, 19.902) Rotation (0, 0, 90)
+  Id: 297 Location: (-9464.09, 2146.92, 178.951) Rotation (0, 0, 0)
+  Id: 289 Location: (-7284, -1530, 19.902) Rotation (0, 0, 90)
+  Id: 305 Location: (-8425.17, 2364.33, 67.15) Rotation (0, 0, 0)
+  Id: 288 Location: (-8689, 1505, 19.902) Rotation (0, 0, -180)
+  Id: 294 Location: (-4206.44, -1407.88, 178.951) Rotation (0, 0, 0)
+  Id: 306 Location: (-10715.1, -630.543, 122.951) Rotation (0, 0, 0)
+  Id: 298 Location: (-11511.7, -1605.76, 95.15) Rotation (0, 0, 0)
+  Id: 307 Location: (-5723.6, 2317.18, 266.951) Rotation (0, 0, 0)
+  Id: 292 Location: (-9872.93, 1242, 19.902) Rotation (0, 0, 0)
+  Id: 308 Location: (-8328.41, 2235.99, 95.15) Rotation (0, 0, 0)
+  Id: 299 Location: (-8166.81, 1891.4, 95.15) Rotation (0, 0, 0)
+  Id: 311 Location: (-10334, 1693.27, 176.451) Rotation (0, 0, 0)
+  Id: 272 Location: (-6959, 1242, 19.902) Rotation (0, 0, 0)
+  Id: 270 Location: (-11565, 2799, 19.902) Rotation (0, 0, -90)
+  Id: 269 Location: (-4999, 2822, 19.902) Rotation (0, 0, 90)
+  Id: 271 Location: (-8098, 917, 19.902) Rotation (0, 0, -90)
+  Id: 273 Location: (-4778, -1323, 19.902) Rotation (0, 0, 90)
+  Id: 274 Location: (-5288.98, 2135.51, 19.902) Rotation (0, 0, -163.484)
+  Id: 275 Location: (-5753.21, 970.308, 19.902) Rotation (0, 0, -59.9615)
+  Id: 267 Location: (-8423, -1855, 19.902) Rotation (0, 0, -180)
+  Id: 268 Location: (-10878, -2116, 19.902) Rotation (0, 0, 0)
+  Id: 266 Location: (-10468.8, 3468, 19.902) Rotation (0, 0, -180)
+  Id: 281 Location: (-4530.12, 774.486, 19.902) Rotation (0, 0, 41.7694)
+  Id: 285 Location: (-9876.42, -2116.3, 19.902) Rotation (0, 0, -0.199615)
+  Id: 276 Location: (-8689, 3468, 19.902) Rotation (0, 0, 180)
+  Id: 282 Location: (-11565, -1437, 19.902) Rotation (0, 0, -90)
+  Id: 277 Location: (-5056, 246.985, 19.902) Rotation (0, 0, -89.9999)
+  Id: 287 Location: (-8114, 3143, 19.902) Rotation (0, 0, -90)
+  Id: 278 Location: (-6034.05, -2116.06, 19.902) Rotation (0, 0, 1.76545)
+  Id: 283 Location: (-10197, 1830.16, 19.902) Rotation (0, 0, 89.9276)
+  Id: 279 Location: (-5056, -1322.1, 19.902) Rotation (0, 0, -90.0315)
+  Id: 286 Location: (-8364, 3143, 19.902) Rotation (0, 0, -90)
+  Id: 280 Location: (-5649.7, 3468, 19.9444) Rotation (0, 0, -180)
+  Id: 284 Location: (-6958.34, -2136.99, 19.902) Rotation (0, 0, 0.768204)
+  Id: 301 Location: (-11265.3, 2767.26, 178.951) Rotation (0, 0, 0)
+  Id: 312 Location: (-8712.36, 2794.58, 266.951) Rotation (0, 0, 0)
+  Id: 291 Location: (-7565, 1830, 19.902) Rotation (0, 0, 90)
+  Id: 315 Location: (-10589.3, -2194.4, 95.15) Rotation (0, 0, 0)
+  Id: 300 Location: (-8356.86, 2076.57, 95.15) Rotation (0, 0, 0)
+ State traffic lights: 0
+ Vehicle animations: 28
+  Id: 293 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 290 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 289 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 288 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 292 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 272 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 270 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 269 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 271 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 273 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 274 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 275 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 267 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 268 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 266 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 281 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 285 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 276 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 282 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 277 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 287 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 278 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 283 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 279 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 286 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 280 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 284 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+  Id: 291 Steering: 3.2638e-30 Throttle: 4.56333e-41 Brake 4.56333e-41 Handbrake: 1 Gear: -1
+ Walker animations: 22
+  Id: 295 speed: 0
+  Id: 313 speed: 0
+  Id: 302 speed: 0
+  Id: 309 speed: 0
+  Id: 296 speed: 0
+  Id: 303 speed: 0
+  Id: 310 speed: 0
+  Id: 314 speed: 0
+  Id: 304 speed: 0
+  Id: 297 speed: 0
+  Id: 305 speed: 0
+  Id: 294 speed: 0
+  Id: 306 speed: 0
+  Id: 298 speed: 0
+  Id: 307 speed: 0
+  Id: 308 speed: 0
+  Id: 299 speed: 0
+  Id: 311 speed: 0
+  Id: 301 speed: 0
+  Id: 312 speed: 0
+  Id: 315 speed: 0
+  Id: 300 speed: 0
+ Vehicle light animations: 28
+  Id: 293 None
+  Id: 290 None
+  Id: 289 None
+  Id: 288 None
+  Id: 292 None
+  Id: 272 None
+  Id: 270 None
+  Id: 269 None
+  Id: 271 None
+  Id: 273 None
+  Id: 274 None
+  Id: 275 None
+  Id: 267 None
+  Id: 268 None
+  Id: 266 None
+  Id: 281 None
+  Id: 285 None
+  Id: 276 None
+  Id: 282 None
+  Id: 277 None
+  Id: 287 None
+  Id: 278 None
+  Id: 283 None
+  Id: 279 None
+  Id: 286 None
+  Id: 280 None
+  Id: 284 None
+  Id: 291 None
+ Dynamic actors: 50
+  Id: 295 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 313 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 302 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 309 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 296 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 303 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 310 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 293 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 314 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 304 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 290 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 297 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 289 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 305 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 288 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 294 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 306 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 298 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 307 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 292 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 308 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 299 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 311 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 272 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 270 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 269 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 271 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 273 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 274 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 275 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 267 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 268 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 266 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 281 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 285 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 276 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 282 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 277 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 287 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 278 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 283 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 279 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 286 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 280 linear_velocity: (-1.02996e-10, -2.75807e-07, -0.0556398) angular_velocity: (0.000195595, -5.37702e-08, -2.18679e-09)
+  Id: 284 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 301 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 312 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 291 linear_velocity: (0, 0, -0.098) angular_velocity: (0, 0, 0)
+  Id: 315 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 300 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+ Actor bounding boxes: 50
+  Id: 266 origin: (18.541, -1.32616e-05, 76.8447) extension: (268.284, 90.0362, 78.7483)
+  Id: 267 origin: (2.36328, 0.0600569, 79.2671) extension: (248.712, 101.92, 77.1059)
+  Id: 268 origin: (0, 0.236816, 76.1917) extension: (199.384, 92.5424, 80.8555)
+  Id: 269 origin: (-2.6077e-08, 0.0341797, 78.1807) extension: (185.268, 89.4339, 77.4525)
+  Id: 270 origin: (-0.359619, 2.98023e-08, 82.0503) extension: (242.785, 101.638, 82.468)
+  Id: 271 origin: (-0.0372314, 0, 69.2648) extension: (209.061, 99.7059, 69.2648)
+  Id: 272 origin: (0, -0.0533447, 76.5104) extension: (230.55, 112.086, 83.3638)
+  Id: 273 origin: (0.00598131, 0.179199, 70.1493) extension: (267.874, 101.66, 70.5329)
+  Id: 274 origin: (-0.534712, 0.000159651, 76.5578) extension: (250.391, 94.0811, 76.7363)
+  Id: 275 origin: (10.9498, 0.000173092, 81.7407) extension: (261.876, 96.488, 81.9192)
+  Id: 276 origin: (3.21387, 2.29874e-06, 65.047) extension: (235.876, 94.7413, 65.047)
+  Id: 277 origin: (0.021683, 0.103027, 93.2276) extension: (193.311, 95.2598, 93.8968)
+  Id: 278 origin: (0.404489, -1.03257e-05, 71.8861) extension: (245.084, 106.416, 75.5373)
+  Id: 279 origin: (-0.629273, 0.000142276, 74.8845) extension: (244.619, 91.8357, 74.5139)
+  Id: 280 origin: (-5.53555e-08, -0.0773925, 66.6794) extension: (251.339, 107.577, 82.5326)
+  Id: 281 origin: (-0.259315, -6.9309e-05, 72.0362) extension: (233.682, 90.5906, 72.0974)
+  Id: 282 origin: (-4.65661e-10, -0.00585937, 67.7155) extension: (110.365, 74.046, 68.8012)
+  Id: 283 origin: (-3.12537, -4.36306e-05, 89.1035) extension: (227.635, 104.854, 88.3583)
+  Id: 284 origin: (-3.12528, -9.06506e-05, 89.1035) extension: (227.635, 104.854, 88.3583)
+  Id: 285 origin: (-0.000337677, 0.0969232, 78.1246) extension: (181.669, 92.2557, 75.0641)
+  Id: 286 origin: (2.83838, 0, 101.672) extension: (278.291, 107.498, 102.257)
+  Id: 287 origin: (2.83838, 0, 101.672) extension: (278.291, 107.498, 102.257)
+  Id: 288 origin: (-0.0146485, -0.155884, 73.9633) extension: (209.642, 90.8093, 73.6916)
+  Id: 289 origin: (2.922, -2.38419e-07, 73.5861) extension: (239.589, 108.173, 74.383)
+  Id: 290 origin: (0.198853, -0.0385742, 72.4169) extension: (225.676, 100.341, 76.2417)
+  Id: 291 origin: (0, 0, 123.372) extension: (260.192, 131.349, 123.372)
+  Id: 292 origin: (-25.3438, 0.530518, 191.335) extension: (423.402, 144.554, 191.371)
+  Id: 293 origin: (0.00012207, 1.54279e-07, 104.91) extension: (313.678, 119.479, 104.91)
+  Id: 294 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 295 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 296 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 297 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 298 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 299 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 300 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 301 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 302 origin: (0, 0, 0) extension: (25, 25, 55)
+  Id: 303 origin: (0, 0, 0) extension: (25, 25, 55)
+  Id: 304 origin: (0, 0, 0) extension: (18.7679, 18.7679, 65)
+  Id: 305 origin: (0, 0, 0) extension: (18.7679, 18.7679, 65)
+  Id: 306 origin: (0, 0, 0) extension: (18.7679, 18.7679, 65)
+  Id: 307 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 308 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 309 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 310 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 311 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 312 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 313 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 314 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+  Id: 315 origin: (0, 0, 0) extension: (18.7679, 18.7679, 93)
+ Current platform time: 1.20425
+ Physics Control events: 28
+  Id: 266
+   max_rpm = 5300
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 2.73
+   mass = 1920
+   drag_coefficient = 0.3
+   center_of_mass = (0.6, 0, -0.5)
+   torque_curve = (1000, 420) (1500, 656) (2000, 798) (3000, 861) (4000, 844) (5200, 684)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 2.84 down_ratio 0.19 up_ratio 0.47
+    gear 1: ratio 1.55 down_ratio 0.14 up_ratio 0.47
+    gear 2: ratio 1 down_ratio 0.19 up_ratio 0.47
+    gear 3: ratio 0.7 down_ratio 0.19 up_ratio 0.47
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34.9 max_brake_torque 1050 max_handbrake_torque 0 position (-10646.1, 3546, 52.9974)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34.9 max_brake_torque 1050 max_handbrake_torque 0 position (-10646.1, 3390, 52.9974)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34.9 max_brake_torque 1050 max_handbrake_torque 2100 position (-10354.5, 3546, 52.9974)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34.9 max_brake_torque 1050 max_handbrake_torque 2100 position (-10354.5, 3390, 52.9974)
+  Id: 267
+   max_rpm = 8000
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 3.08
+   mass = 1920
+   drag_coefficient = 0.3
+   center_of_mass = (0.6, 0, -0.5)
+   torque_curve = (200, 340) (1000, 538) (1500, 645) (2000, 720) (3200, 756) (4700, 787) (6500, 660)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 4.714 down_ratio 0.19 up_ratio 0.44
+    gear 1: ratio 3.143 down_ratio 0.19 up_ratio 0.41
+    gear 2: ratio 2.106 down_ratio 0.19 up_ratio 0.38
+    gear 3: ratio 1.667 down_ratio 0.19 up_ratio 0.38
+    gear 4: ratio 1.285 down_ratio 0.19 up_ratio 0.38
+    gear 5: ratio 1 down_ratio 0.19 up_ratio 0.38
+    gear 6: ratio 0.839 down_ratio 0.19 up_ratio 0.38
+    gear 7: ratio 0.667 down_ratio 0.19 up_ratio 0.38
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 37 max_brake_torque 1000 max_handbrake_torque 0 position (-8572.06, -1772.34, 60.1305)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 37 max_brake_torque 1000 max_handbrake_torque 0 position (-8572.06, -1937.82, 60.1305)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 37 max_brake_torque 1000 max_handbrake_torque 2000 position (-8272.89, -1772.34, 59.8778)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 37 max_brake_torque 1000 max_handbrake_torque 2000 position (-8272.89, -1937.81, 59.8778)
+  Id: 268
+   max_rpm = 4500
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 3.68
+   mass = 1205
+   drag_coefficient = 0.3
+   center_of_mass = (0.6, 0, -0.4)
+   torque_curve = (1000, 226) (1700, 387) (3200, 340) (4500, 250)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 3.454 down_ratio 0.2 up_ratio 0.55
+    gear 1: ratio 1.869 down_ratio 0.22 up_ratio 0.55
+    gear 2: ratio 1.16 down_ratio 0.22 up_ratio 0.55
+    gear 3: ratio 0.82 down_ratio 0.22 up_ratio 0.55
+    gear 4: ratio 0.659 down_ratio 0.22 up_ratio 0.55
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34 max_brake_torque 600 max_handbrake_torque 0 position (-10750.6, -2188.46, 50.1242)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34 max_brake_torque 600 max_handbrake_torque 0 position (-10750.6, -2043.54, 50.1242)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34 max_brake_torque 600 max_handbrake_torque 1200 position (-11019, -2188.46, 50.1242)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34 max_brake_torque 600 max_handbrake_torque 1200 position (-11019, -2043.54, 50.1242)
+  Id: 269
+   max_rpm = 6300
+   MOI = 1
+   damping_rate_full_throttle = 0.1
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 3.93
+   mass = 995
+   drag_coefficient = 0.3
+   center_of_mass = (0.6, 0, -0.25)
+   torque_curve = (1000, 250) (1500, 330) (2000, 355) (2500, 380) (4000, 390) (6000, 310) (6300, 280)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 3.45 down_ratio 0.24 up_ratio 0.4
+    gear 1: ratio 2.1 down_ratio 0.2 up_ratio 0.48
+    gear 2: ratio 1.39 down_ratio 0.24 up_ratio 0.48
+    gear 3: ratio 1.03 down_ratio 0.24 up_ratio 0.48
+    gear 4: ratio 0.81 down_ratio 0.24 up_ratio 0.48
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 33 max_brake_torque 450 max_handbrake_torque 0 position (-4927.51, 2947.02, 53.6244)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 33 max_brake_torque 450 max_handbrake_torque 0 position (-5070.49, 2947.02, 53.6244)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 33 max_brake_torque 450 max_handbrake_torque 900 position (-4927.51, 2696.37, 53.9)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 33 max_brake_torque 450 max_handbrake_torque 900 position (-5070.49, 2696.37, 53.9)
+  Id: 270
+   max_rpm = 9000
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 9.204
+   mass = 2370
+   drag_coefficient = 0.3
+   center_of_mass = (0.3, 0, -0.25)
+   torque_curve = (-9.31094, 749) (4000, 749) (5000, 610) (6000, 507) (7000, 435) (8000, 381) (9000, 338)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 1 down_ratio 0 up_ratio 1
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 37 max_brake_torque 1000 max_handbrake_torque 0 position (-11644.6, 2647.55, 57.9272)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 37 max_brake_torque 1000 max_handbrake_torque 0 position (-11485.4, 2647.55, 57.9272)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 37 max_brake_torque 1000 max_handbrake_torque 2000 position (-11644.6, 2937.55, 57.9272)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 37 max_brake_torque 1000 max_handbrake_torque 2000 position (-11485.4, 2937.55, 57.9272)
+  Id: 271
+   max_rpm = 4700
+   MOI = 1
+   damping_rate_full_throttle = 0.05
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 3.45
+   mass = 1265
+   drag_coefficient = 0.25
+   center_of_mass = (0.5, 0, -0.25)
+   torque_curve = (1000, 380) (1700, 550) (3300, 550) (4700, 360)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 3.769 down_ratio 0.21 up_ratio 0.64
+    gear 1: ratio 2.087 down_ratio 0.21 up_ratio 0.59
+    gear 2: ratio 1.324 down_ratio 0.21 up_ratio 0.53
+    gear 3: ratio 0.919 down_ratio 0.21 up_ratio 0.53
+    gear 4: ratio 0.722 down_ratio 0.21 up_ratio 0.53
+    gear 5: ratio 0.606 down_ratio 0.21 up_ratio 0.53
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34 max_brake_torque 700 max_handbrake_torque 0 position (-8173.95, 792.753, 55.1155)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34 max_brake_torque 700 max_handbrake_torque 0 position (-8022.05, 792.753, 55.1155)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34 max_brake_torque 700 max_handbrake_torque 1400 position (-8168.05, 1056.96, 55.1155)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34 max_brake_torque 700 max_handbrake_torque 1400 position (-8027.95, 1056.96, 55.1155)
+  Id: 272
+   max_rpm = 5500
+   MOI = 1
+   damping_rate_full_throttle = 0.1
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 3.389
+   mass = 1420
+   drag_coefficient = 0.3
+   center_of_mass = (0.6, 0, -0.25)
+   torque_curve = (1000, 224) (1700, 378) (2500, 378) (4500, 245)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 3.923 down_ratio 0.22 up_ratio 0.44
+    gear 1: ratio 2.136 down_ratio 0.17 up_ratio 0.56
+    gear 2: ratio 1.276 down_ratio 0.22 up_ratio 0.56
+    gear 3: ratio 0.921 down_ratio 0.22 up_ratio 0.56
+    gear 4: ratio 0.756 down_ratio 0.22 up_ratio 0.56
+    gear 5: ratio 0.628 down_ratio 0.22 up_ratio 0.56
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 36 max_brake_torque 700 max_handbrake_torque 0 position (-6809.83, 1147.39, 49.2441)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 36 max_brake_torque 700 max_handbrake_torque 0 position (-6809.83, 1336.61, 49.2441)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 36 max_brake_torque 700 max_handbrake_torque 1400 position (-7103.31, 1147.39, 49.2441)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 36 max_brake_torque 700 max_handbrake_torque 1400 position (-7103.31, 1336.61, 49.2441)
+  Id: 273
+   max_rpm = 6500
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 2.86
+   mass = 1613
+   drag_coefficient = 0.3
+   center_of_mass = (0.6, 0, -0.3)
+   torque_curve = (1000, 248) (1500, 496) (2500, 576) (4000, 544) (5300, 496) (6500, 360)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 3.512 down_ratio 0.23 up_ratio 0.46
+    gear 1: ratio 1.568 down_ratio 0.15 up_ratio 0.46
+    gear 2: ratio 1 down_ratio 0.23 up_ratio 0.46
+    gear 3: ratio 0.705 down_ratio 0.23 up_ratio 0.46
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34 max_brake_torque 700 max_handbrake_torque 0 position (-4700.56, -1157.76, 54.7318)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34 max_brake_torque 700 max_handbrake_torque 0 position (-4855.49, -1157.76, 54.7318)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34 max_brake_torque 700 max_handbrake_torque 1400 position (-4700.56, -1455.94, 54.7318)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34 max_brake_torque 700 max_handbrake_torque 1400 position (-4855.49, -1455.94, 54.7318)
+  Id: 274
+   max_rpm = 8000
+   MOI = 1
+   damping_rate_full_throttle = 0.05
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 3.08
+   mass = 1920
+   drag_coefficient = 0.3
+   center_of_mass = (0.1, 0, -0.2)
+   torque_curve = (200, 330) (1000, 521) (1500, 626) (2000, 699) (3200, 733) (4700, 763) (6500, 640)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 4.714 down_ratio 0.19 up_ratio 0.44
+    gear 1: ratio 3.143 down_ratio 0.19 up_ratio 0.41
+    gear 2: ratio 2.106 down_ratio 0.19 up_ratio 0.38
+    gear 3: ratio 1.667 down_ratio 0.19 up_ratio 0.38
+    gear 4: ratio 1.285 down_ratio 0.19 up_ratio 0.38
+    gear 5: ratio 1 down_ratio 0.19 up_ratio 0.38
+    gear 6: ratio 0.839 down_ratio 0.19 up_ratio 0.38
+    gear 7: ratio 0.667 down_ratio 0.19 up_ratio 0.38
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 35 max_brake_torque 1000 max_handbrake_torque 0 position (-5466.51, 2167.56, 54.954)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 35 max_brake_torque 1000 max_handbrake_torque 0 position (-5420.34, 2011.87, 54.954)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 35 max_brake_torque 1000 max_handbrake_torque 2000 position (-5175.11, 2255.53, 54.954)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 35 max_brake_torque 1000 max_handbrake_torque 2000 position (-5128.09, 2096.97, 54.954)
+  Id: 275
+   max_rpm = 8000
+   MOI = 1
+   damping_rate_full_throttle = 0.05
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 3.08
+   mass = 1920
+   drag_coefficient = 0.3
+   center_of_mass = (0.1, 0, -0.2)
+   torque_curve = (200, 320) (1000, 506) (1500, 607) (2000, 678) (3200, 711) (4700, 740) (6500, 621)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 4.714 down_ratio 0.19 up_ratio 0.44
+    gear 1: ratio 3.143 down_ratio 0.19 up_ratio 0.41
+    gear 2: ratio 2.106 down_ratio 0.19 up_ratio 0.38
+    gear 3: ratio 1.667 down_ratio 0.19 up_ratio 0.38
+    gear 4: ratio 1.285 down_ratio 0.19 up_ratio 0.38
+    gear 5: ratio 1 down_ratio 0.19 up_ratio 0.38
+    gear 6: ratio 0.839 down_ratio 0.19 up_ratio 0.38
+    gear 7: ratio 0.667 down_ratio 0.19 up_ratio 0.38
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 35 max_brake_torque 1000 max_handbrake_torque 0 position (-5742.87, 790.209, 54.954)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 35 max_brake_torque 1000 max_handbrake_torque 0 position (-5602.28, 871.501, 54.954)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 35 max_brake_torque 1000 max_handbrake_torque 2000 position (-5896.53, 1052.96, 54.954)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 35 max_brake_torque 1000 max_handbrake_torque 2000 position (-5753.36, 1135.75, 54.954)
+  Id: 276
+   max_rpm = 4500
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 2.73
+   mass = 1410
+   drag_coefficient = 0.3
+   center_of_mass = (0.5, 0, -0.3)
+   torque_curve = (1000, 357) (2000, 715) (2400, 765) (2800, 760) (4000, 676) (4500, 583)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 2.4 down_ratio 0.22 up_ratio 0.44
+    gear 1: ratio 1.467 down_ratio 0.17 up_ratio 0.44
+    gear 2: ratio 1 down_ratio 0.22 up_ratio 0.44
+    gear 3: ratio 0.67 down_ratio 0.22 up_ratio 0.44
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 32 max_brake_torque 700 max_handbrake_torque 0 position (-8845.18, 3547.28, 52.5398)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 32 max_brake_torque 700 max_handbrake_torque 0 position (-8845.18, 3388.72, 52.5398)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 32 max_brake_torque 700 max_handbrake_torque 1400 position (-8556.56, 3547.28, 52.5398)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 32 max_brake_torque 700 max_handbrake_torque 1400 position (-8556.56, 3388.72, 52.5398)
+  Id: 277
+   max_rpm = 5000
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 3.73
+   mass = 1900
+   drag_coefficient = 0.3
+   center_of_mass = (0.3, 0, -0.5)
+   torque_curve = (1000, 418.95) (1500, 641.25) (2800, 649.8) (4500, 401.85)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 3.588 down_ratio 0.2 up_ratio 0.6
+    gear 1: ratio 2.186 down_ratio 0.2 up_ratio 0.55
+    gear 2: ratio 1.405 down_ratio 0.2 up_ratio 0.5
+    gear 3: ratio 1 down_ratio 0.2 up_ratio 0.5
+    gear 4: ratio 0.831 down_ratio 0.2 up_ratio 0.5
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 42 max_brake_torque 1200 max_handbrake_torque 0 position (-5135.45, 117.865, 60.9387)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 42 max_brake_torque 1200 max_handbrake_torque 0 position (-4976.94, 117.865, 60.9387)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 42 max_brake_torque 1200 max_handbrake_torque 2400 position (-5135.45, 348.65, 60.9387)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 42 max_brake_torque 1200 max_handbrake_torque 2400 position (-4976.94, 348.651, 60.9387)
+  Id: 278
+   max_rpm = 6500
+   MOI = 1
+   damping_rate_full_throttle = 0.05
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 3.21
+   mass = 1696
+   drag_coefficient = 0.3
+   center_of_mass = (0.6, 0, -0.3)
+   torque_curve = (1000, 347) (1500, 523) (2000, 606) (3000, 695) (4000, 677) (5300, 607) (6500, 466)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 4.584 down_ratio 0.23 up_ratio 0.54
+    gear 1: ratio 2.964 down_ratio 0.23 up_ratio 0.5
+    gear 2: ratio 1.912 down_ratio 0.23 up_ratio 0.46
+    gear 3: ratio 1.446 down_ratio 0.23 up_ratio 0.46
+    gear 4: ratio 1 down_ratio 0.23 up_ratio 0.46
+    gear 5: ratio 0.746 down_ratio 0.23 up_ratio 0.46
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 35.5 max_brake_torque 800 max_handbrake_torque 0 position (-5883.95, -2189.95, 52.1077)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 35.5 max_brake_torque 800 max_handbrake_torque 0 position (-5888.79, -2033.06, 52.1077)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 35.5 max_brake_torque 800 max_handbrake_torque 1600 position (-6170.93, -2198.8, 52.1077)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 35.5 max_brake_torque 800 max_handbrake_torque 1600 position (-6175.76, -2041.91, 52.1077)
+  Id: 279
+   max_rpm = 6500
+   MOI = 1
+   damping_rate_full_throttle = 0.05
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 3.21
+   mass = 1696
+   drag_coefficient = 0.3
+   center_of_mass = (0.3, 0, -0.2)
+   torque_curve = (1000, 347) (1500, 523) (2000, 606) (3000, 695) (4000, 677) (5300, 607) (6500, 466)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 4.584 down_ratio 0.23 up_ratio 0.46
+    gear 1: ratio 2.964 down_ratio 0.23 up_ratio 0.46
+    gear 2: ratio 1.912 down_ratio 0.23 up_ratio 0.46
+    gear 3: ratio 1.446 down_ratio 0.23 up_ratio 0.46
+    gear 4: ratio 1 down_ratio 0.23 up_ratio 0.46
+    gear 5: ratio 0.746 down_ratio 0.23 up_ratio 0.46
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 35.5 max_brake_torque 800 max_handbrake_torque 0 position (-5135.73, -1469.24, 55.9541)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 35.5 max_brake_torque 800 max_handbrake_torque 0 position (-4976.44, -1469.32, 55.9541)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 35.5 max_brake_torque 800 max_handbrake_torque 1600 position (-5135.57, -1183.19, 55.9541)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 35.5 max_brake_torque 800 max_handbrake_torque 1600 position (-4976.28, -1183.28, 55.9541)
+  Id: 280
+   max_rpm = 7500
+   MOI = 1
+   damping_rate_full_throttle = 0.05
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 2.473
+   mass = 1630
+   drag_coefficient = 0.3
+   center_of_mass = (0.4, 0, -0.3)
+   torque_curve = (1000, 374) (1500, 630) (3000, 630) (5000, 374)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 5.35 down_ratio 0.2 up_ratio 0.4
+    gear 1: ratio 3.24 down_ratio 0.17 up_ratio 0.4
+    gear 2: ratio 2.25 down_ratio 0.2 up_ratio 0.4
+    gear 3: ratio 1.64 down_ratio 0.2 up_ratio 0.4
+    gear 4: ratio 1.21 down_ratio 0.2 up_ratio 0.4
+    gear 5: ratio 1 down_ratio 0.2 up_ratio 0.4
+    gear 6: ratio 0.86 down_ratio 0.2 up_ratio 0.4
+    gear 7: ratio 0.72 down_ratio 0.2 up_ratio 0.4
+    gear 8: ratio 0.6 down_ratio 0.2 up_ratio 0.4
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 39.5 max_brake_torque 900 max_handbrake_torque 0 position (-5826.7, 3558.96, 45.3479)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 39.5 max_brake_torque 900 max_handbrake_torque 0 position (-5826.7, 3377.04, 45.348)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 39.5 max_brake_torque 900 max_handbrake_torque 1800 position (-5497.84, 3559.35, 45.3479)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 39.5 max_brake_torque 900 max_handbrake_torque 1800 position (-5497.84, 3376.65, 45.348)
+  Id: 281
+   max_rpm = 7500
+   MOI = 1
+   damping_rate_full_throttle = 0.05
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 2.473
+   mass = 1630
+   drag_coefficient = 0.3
+   center_of_mass = (0.1, 0, -0.2)
+   torque_curve = (1000, 374) (1500, 630) (3000, 630) (5000, 374)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 5.35 down_ratio 0.2 up_ratio 0.4
+    gear 1: ratio 3.24 down_ratio 0.17 up_ratio 0.4
+    gear 2: ratio 2.25 down_ratio 0.2 up_ratio 0.4
+    gear 3: ratio 1.64 down_ratio 0.2 up_ratio 0.4
+    gear 4: ratio 1.21 down_ratio 0.2 up_ratio 0.4
+    gear 5: ratio 1 down_ratio 0.2 up_ratio 0.4
+    gear 6: ratio 0.86 down_ratio 0.2 up_ratio 0.4
+    gear 7: ratio 0.72 down_ratio 0.2 up_ratio 0.4
+    gear 8: ratio 0.6 down_ratio 0.2 up_ratio 0.4
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34.25 max_brake_torque 800 max_handbrake_torque 0 position (-4361.4, 817.661, 54.3727)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34.25 max_brake_torque 800 max_handbrake_torque 0 position (-4467.88, 936.88, 54.3727)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34.25 max_brake_torque 800 max_handbrake_torque 1600 position (-4572.66, 628.976, 54.3727)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34.25 max_brake_torque 800 max_handbrake_torque 1600 position (-4679.14, 748.195, 54.3727)
+  Id: 282
+   max_rpm = 4500
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 4
+   mass = 513
+   drag_coefficient = 0.3
+   center_of_mass = (-0.2, 0, -0.3)
+   torque_curve = (0, 175) (2813, 175) (3375, 137) (4000, 109) (4500, 95)
+   steering_curve = (0, 1) (20, 0.9) (63.0868, 0.703473) (119.12, 0.573047)
+   forward_gears:
+    gear 0: ratio 1 down_ratio 0 up_ratio 0
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 25 max_brake_torque 100 max_handbrake_torque 0 position (-11624.6, -1505.39, 44.348)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 90 radius 25 max_brake_torque 100 max_handbrake_torque 0 position (-11505.4, -1505.39, 44.348)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 25 max_brake_torque 100 max_handbrake_torque 200 position (-11601.1, -1352.92, 45.2096)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 25 max_brake_torque 100 max_handbrake_torque 200 position (-11528.9, -1352.92, 45.2096)
+  Id: 283
+   max_rpm = 6500
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 3.421
+   mass = 1130
+   drag_coefficient = 0.3
+   center_of_mass = (0.6, 0, -0.5)
+   torque_curve = (1000, 306) (1400, 439) (4200, 439) (5000, 363) (6500, 245)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 3.615 down_ratio 0.23 up_ratio 0.38
+    gear 1: ratio 1.952 down_ratio 0.19 up_ratio 0.46
+    gear 2: ratio 1.241 down_ratio 0.23 up_ratio 0.46
+    gear 3: ratio 0.969 down_ratio 0.23 up_ratio 0.46
+    gear 4: ratio 0.806 down_ratio 0.23 up_ratio 0.46
+    gear 5: ratio 0.683 down_ratio 0.23 up_ratio 0.46
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 37.5 max_brake_torque 500 max_handbrake_torque 0 position (-10107.1, 1967.02, 57.1566)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 37.5 max_brake_torque 500 max_handbrake_torque 0 position (-10286.6, 1967.24, 57.1566)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 37.5 max_brake_torque 500 max_handbrake_torque 1000 position (-10107.5, 1666.02, 57.1566)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 37.5 max_brake_torque 500 max_handbrake_torque 1000 position (-10287, 1666.25, 57.1566)
+  Id: 284
+   max_rpm = 6500
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 3.421
+   mass = 1130
+   drag_coefficient = 0.3
+   center_of_mass = (0.6, 0, -0.5)
+   torque_curve = (1000, 306) (1400, 439) (4200, 439) (5000, 363) (6500, 245)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 3.615 down_ratio 0.23 up_ratio 0.38
+    gear 1: ratio 1.952 down_ratio 0.19 up_ratio 0.46
+    gear 2: ratio 1.241 down_ratio 0.23 up_ratio 0.46
+    gear 3: ratio 0.969 down_ratio 0.23 up_ratio 0.46
+    gear 4: ratio 0.806 down_ratio 0.23 up_ratio 0.46
+    gear 5: ratio 0.683 down_ratio 0.23 up_ratio 0.46
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 37.5 max_brake_torque 500 max_handbrake_torque 0 position (-6820.17, -2224.93, 57.1566)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 37.5 max_brake_torque 500 max_handbrake_torque 0 position (-6822.58, -2045.38, 57.1566)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 37.5 max_brake_torque 500 max_handbrake_torque 1000 position (-7121.14, -2228.97, 57.1566)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 37.5 max_brake_torque 500 max_handbrake_torque 1000 position (-7123.55, -2049.41, 57.1566)
+  Id: 285
+   max_rpm = 5500
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 6
+   final_ratio = 4.214
+   mass = 960
+   drag_coefficient = 0.3
+   center_of_mass = (0.5, 0, -0.3)
+   torque_curve = (1000, 185.25) (1500, 237.5) (2500, 349.6) (3000, 365.75) (5200, 349.6) (5500, 324.9)
+   steering_curve = (0, 1) (20, 0.897898) (60, 0.76) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 3.727 down_ratio 0.27 up_ratio 0.45
+    gear 1: ratio 2.048 down_ratio 0.23 up_ratio 0.55
+    gear 2: ratio 1.393 down_ratio 0.27 up_ratio 0.55
+    gear 3: ratio 1.029 down_ratio 0.27 up_ratio 0.55
+    gear 4: ratio 0.821 down_ratio 0.27 up_ratio 0.55
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34 max_brake_torque 550 max_handbrake_torque 0 position (-9759.35, -2186.63, 55.9033)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 34 max_brake_torque 550 max_handbrake_torque 0 position (-9758.86, -2046.58, 55.9033)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34 max_brake_torque 550 max_handbrake_torque 1100 position (-10008.4, -2185.76, 55.903)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 34 max_brake_torque 550 max_handbrake_torque 1100 position (-10007.9, -2045.71, 55.903)
+  Id: 286
+   max_rpm = 6000
+   MOI = 1
+   damping_rate_full_throttle = 0.05
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 4.814
+   mass = 2355
+   drag_coefficient = 0.3
+   center_of_mass = (0.6, 0, -0.5)
+   torque_curve = (1000, 269.1) (1500, 544.5) (2500, 902.7) (3100, 998.1) (3800, 998.1) (4700, 919.8) (5500, 803.7) (6000, 648.9)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 5.08 down_ratio 0.25 up_ratio 0.58
+    gear 1: ratio 2.804 down_ratio 0.17 up_ratio 0.54
+    gear 2: ratio 1.783 down_ratio 0.17 up_ratio 0.5
+    gear 3: ratio 1.26 down_ratio 0.25 up_ratio 0.5
+    gear 4: ratio 1 down_ratio 0.25 up_ratio 0.5
+    gear 5: ratio 0.835 down_ratio 0.25 up_ratio 0.5
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 45 max_brake_torque 1500 max_handbrake_torque 0 position (-8455.8, 2965.11, 64.6037)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 45 max_brake_torque 1500 max_handbrake_torque 0 position (-8272.2, 2965.11, 64.6037)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 45 max_brake_torque 1500 max_handbrake_torque 3000 position (-8455.8, 3293.01, 64.6037)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 45 max_brake_torque 1500 max_handbrake_torque 3000 position (-8272.2, 3293.01, 64.6039)
+  Id: 287
+   max_rpm = 6000
+   MOI = 1
+   damping_rate_full_throttle = 0.05
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 4.814
+   mass = 2355
+   drag_coefficient = 0.3
+   center_of_mass = (0.6, 0, -0.5)
+   torque_curve = (1000, 269.1) (1500, 544.5) (2500, 902.7) (3100, 998.1) (3800, 998.1) (4700, 919.8) (5500, 803.7) (6000, 648.9)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 5.08 down_ratio 0.25 up_ratio 0.58
+    gear 1: ratio 2.804 down_ratio 0.17 up_ratio 0.54
+    gear 2: ratio 1.783 down_ratio 0.17 up_ratio 0.5
+    gear 3: ratio 1.26 down_ratio 0.25 up_ratio 0.5
+    gear 4: ratio 1 down_ratio 0.25 up_ratio 0.5
+    gear 5: ratio 0.835 down_ratio 0.25 up_ratio 0.5
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 45 max_brake_torque 1500 max_handbrake_torque 0 position (-8205.8, 2965.11, 64.6037)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 45 max_brake_torque 1500 max_handbrake_torque 0 position (-8022.2, 2965.11, 64.6037)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 45 max_brake_torque 1500 max_handbrake_torque 3000 position (-8205.8, 3293.01, 64.6037)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 45 max_brake_torque 1500 max_handbrake_torque 3000 position (-8022.2, 3293.01, 64.6039)
+  Id: 288
+   max_rpm = 5500
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 2.6
+   mass = 1318
+   drag_coefficient = 0.3
+   center_of_mass = (0.2, 0, -0.3)
+   torque_curve = (1000, 228) (1500, 352) (2000, 410) (2500, 428) (4500, 468) (6000, 396) (6500, 315)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 3.46 down_ratio 0.27 up_ratio 0.35
+    gear 1: ratio 2.05 down_ratio 0.15 up_ratio 0.55
+    gear 2: ratio 1.3 down_ratio 0.27 up_ratio 0.55
+    gear 3: ratio 1 down_ratio 0.27 up_ratio 0.55
+    gear 4: ratio 0.91 down_ratio 0.27 up_ratio 0.55
+    gear 5: ratio 0.76 down_ratio 0.27 up_ratio 0.55
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 33.5 max_brake_torque 600 max_handbrake_torque 0 position (-8820.55, 1578.59, 54.0038)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 33.5 max_brake_torque 600 max_handbrake_torque 0 position (-8820.55, 1431.41, 54.0037)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 33.5 max_brake_torque 600 max_handbrake_torque 1200 position (-8546.96, 1578.59, 54.0037)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 33.5 max_brake_torque 600 max_handbrake_torque 1200 position (-8546.96, 1431.41, 54.0037)
+  Id: 289
+   max_rpm = 15000
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 9
+   mass = 1845
+   drag_coefficient = 0.15
+   center_of_mass = (0.45, 0, -0.3)
+   torque_curve = (-9.31094, 743) (9000, 743) (9500, 660) (10400, 605) (12500, 528) (15000, 502)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 1 down_ratio 0 up_ratio 0
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 37 max_brake_torque 700 max_handbrake_torque 0 position (-7200.66, -1368.18, 56.8155)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 37 max_brake_torque 700 max_handbrake_torque 0 position (-7367.34, -1368.18, 56.8155)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 37 max_brake_torque 700 max_handbrake_torque 1400 position (-7200.66, -1668.64, 56.816)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 37 max_brake_torque 700 max_handbrake_torque 1400 position (-7367.34, -1668.64, 56.8156)
+  Id: 290
+   max_rpm = 5000
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 4.17
+   mass = 1375
+   drag_coefficient = 0.3
+   center_of_mass = (0.5, 0, -0.3)
+   torque_curve = (-9.31094, 450) (3000, 450) (3800, 366) (5000, 304)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 1 down_ratio 0 up_ratio 0
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 37 max_brake_torque 800 max_handbrake_torque 0 position (-7233.53, 1971.99, 53.3727)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 37 max_brake_torque 800 max_handbrake_torque 0 position (-7396.39, 1971.99, 53.3727)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 37 max_brake_torque 800 max_handbrake_torque 1600 position (-7238.48, 1690.08, 53.3731)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 37 max_brake_torque 800 max_handbrake_torque 1600 position (-7391.44, 1690.08, 53.3731)
+  Id: 291
+   max_rpm = 4500
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 4
+   mass = 4600
+   drag_coefficient = 0.3
+   center_of_mass = (1, 0, -0.7)
+   torque_curve = (0, 320) (1315.47, 520) (5729.58, 320)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 5.016 down_ratio 0.22 up_ratio 0.67
+    gear 1: ratio 2.672 down_ratio 0.22 up_ratio 0.61
+    gear 2: ratio 1.585 down_ratio 0.22 up_ratio 0.55
+    gear 3: ratio 1 down_ratio 0.22 up_ratio 0.55
+    gear 4: ratio 0.77 down_ratio 0.22 up_ratio 0.55
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 46 max_brake_torque 2700 max_handbrake_torque 0 position (-7475.73, 1975.87, 66.1529)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 46 max_brake_torque 2700 max_handbrake_torque 0 position (-7654.27, 1975.87, 66.1529)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 46 max_brake_torque 2700 max_handbrake_torque 5400 position (-7459.12, 1709.36, 66.1529)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 46 max_brake_torque 2700 max_handbrake_torque 5400 position (-7670.88, 1709.36, 66.1529)
+  Id: 292
+   max_rpm = 5000
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 20
+   final_ratio = 4
+   mass = 10000
+   drag_coefficient = 0.5
+   center_of_mass = (0.8, 0, -1.2)
+   torque_curve = (14.8655, 1800) (1005.52, 2325) (2311.79, 826) (2570.94, 200)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 4.58 down_ratio 0.3 up_ratio 0.6
+    gear 1: ratio 2.9 down_ratio 0.3 up_ratio 0.55
+    gear 2: ratio 1.9 down_ratio 0.3 up_ratio 0.5
+    gear 3: ratio 1.44 down_ratio 0.3 up_ratio 0.5
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 57 max_brake_torque 3000 max_handbrake_torque 0 position (-9641.22, 1123.36, 77.366)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 57 max_brake_torque 3000 max_handbrake_torque 0 position (-9641.22, 1361.7, 77.366)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 57 max_brake_torque 3000 max_handbrake_torque 6000 position (-10140.7, 1141.2, 77.3659)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 57 max_brake_torque 3000 max_handbrake_torque 6000 position (-10140.7, 1343.38, 77.3659)
+  Id: 293
+   max_rpm = 15000
+   MOI = 1
+   damping_rate_full_throttle = 0.15
+   damping_rate_zero_throttle_clutch_engaged = 2
+   damping_rate_zero_throttle_clutch_disengaged = 0.35
+   use_gear_auto_box = true
+   gear_switch_time = 0.5
+   clutch_strength = 10
+   final_ratio = 9
+   mass = 1500
+   drag_coefficient = 0.3
+   center_of_mass = (0.6, 0, -0.5)
+   torque_curve = (-9.31094, 743) (9000, 743) (9500, 660) (10400, 605) (12500, 528) (15000, 502)
+   steering_curve = (0, 1) (20, 0.9) (60, 0.8) (120, 0.7)
+   forward_gears:
+    gear 0: ratio 1 down_ratio 0 up_ratio 1
+   wheels:
+    wheel 0: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 53.5 max_brake_torque 1600 max_handbrake_torque 0 position (-10103.7, -1313.12, 73.7481)
+    wheel 1: tire_friction 3.5 damping_rate 0.25 max_steer_angle 70 radius 53.5 max_brake_torque 1600 max_handbrake_torque 0 position (-10298.3, -1312.88, 73.7481)
+    wheel 2: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 53.5 max_brake_torque 1600 max_handbrake_torque 3200 position (-10104.2, -1720.65, 73.7481)
+    wheel 3: tire_friction 3.5 damping_rate 0.25 max_steer_angle 0 radius 53.5 max_brake_torque 1600 max_handbrake_torque 3200 position (-10298.8, -1720.4, 73.7481)
+Frame 13 at 0.05628 seconds
+ Create 316: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 317: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 318: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 319: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 320: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 321: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 322: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 323: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 324: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 325: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 326: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 327: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 328: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 329: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 330: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 331: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 332: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 333: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 334: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 335: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 336: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Create 337: controller.ai.walker (0) at (0, 0, 0)
+  role_name = default
+ Parenting 316 with 294 (parent)
+ Parenting 317 with 295 (parent)
+ Parenting 318 with 296 (parent)
+ Parenting 319 with 297 (parent)
+ Parenting 320 with 298 (parent)
+ Parenting 321 with 299 (parent)
+ Parenting 322 with 300 (parent)
+ Parenting 323 with 301 (parent)
+ Parenting 324 with 302 (parent)
+ Parenting 325 with 303 (parent)
+ Parenting 326 with 304 (parent)
+ Parenting 327 with 305 (parent)
+ Parenting 328 with 306 (parent)
+ Parenting 329 with 307 (parent)
+ Parenting 330 with 308 (parent)
+ Parenting 331 with 309 (parent)
+ Parenting 332 with 310 (parent)
+ Parenting 333 with 311 (parent)
+ Parenting 334 with 312 (parent)
+ Parenting 335 with 313 (parent)
+ Parenting 336 with 314 (parent)
+ Parenting 337 with 315 (parent)
+ Positions: 73
+  Id: 1 Location: (0, 0, 0) Rotation (2.33455e-07, 0.222903, 118.046)
+  Id: 317 Location: (-5662.99, 1479.5, 180.804) Rotation (0, 0, 0)
+  Id: 295 Location: (-5662.99, 1479.5, 180.804) Rotation (0, 0, 0)
+  Id: 313 Location: (-11058.3, -1684.89, 178.804) Rotation (0, 0, 0)
+  Id: 302 Location: (-6454.43, 3451.06, 57.15) Rotation (0, 0, 0)
+  Id: 309 Location: (-8028.26, 1298.36, 95.15) Rotation (0, 0, 0)
+  Id: 296 Location: (-10497.7, -1483.92, 178.804) Rotation (0, 0, 0)
+  Id: 316 Location: (-4206.44, -1407.88, 178.804) Rotation (0, 0, 0)
+  Id: 303 Location: (-4257.02, 1014.41, 57.15) Rotation (0, 0, 0)
+  Id: 310 Location: (-5249.44, 742.554, 176.304) Rotation (0, 0, 0)
+  Id: 293 Location: (-10201.3, -1529.84, 19.706) Rotation (0, 0, 89.9276)
+  Id: 314 Location: (-6297.08, 2477.26, 266.804) Rotation (0, 0, 0)
+  Id: 304 Location: (-11386.3, 2100.2, 67.15) Rotation (0, 0, 0)
+  Id: 290 Location: (-7315, 1830, 19.706) Rotation (0, 0, 90)
+  Id: 297 Location: (-9464.09, 2146.92, 178.804) Rotation (0, 0, 0)
+  Id: 289 Location: (-7284, -1530, 19.706) Rotation (0, 0, 90)
+  Id: 305 Location: (-8425.17, 2364.33, 67.15) Rotation (0, 0, 0)
+  Id: 288 Location: (-8689, 1505, 19.706) Rotation (0, 0, -180)
+  Id: 294 Location: (-4206.44, -1407.88, 178.804) Rotation (0, 0, 0)
+  Id: 306 Location: (-10715.1, -630.543, 122.804) Rotation (0, 0, 0)
+  Id: 298 Location: (-11511.7, -1605.76, 95.15) Rotation (0, 0, 0)
+  Id: 307 Location: (-5723.6, 2317.18, 266.804) Rotation (0, 0, 0)
+  Id: 292 Location: (-9872.93, 1242, 19.706) Rotation (0, 0, 0)
+  Id: 308 Location: (-8328.41, 2235.99, 95.15) Rotation (0, 0, 0)
+  Id: 299 Location: (-8166.81, 1891.4, 95.15) Rotation (0, 0, 0)
+  Id: 311 Location: (-10334, 1693.27, 176.304) Rotation (0, 0, 0)
+  Id: 272 Location: (-6959, 1242, 19.706) Rotation (0, 0, 0)
+  Id: 270 Location: (-11565, 2799, 19.706) Rotation (0, 0, -90)
+  Id: 269 Location: (-4999, 2822, 19.706) Rotation (0, 0, 90)
+  Id: 271 Location: (-8098, 917, 19.706) Rotation (0, 0, -90)
+  Id: 273 Location: (-4778, -1323, 19.706) Rotation (0, 0, 90)
+  Id: 274 Location: (-5288.98, 2135.51, 19.706) Rotation (0, 0, -163.484)
+  Id: 275 Location: (-5753.21, 970.308, 19.706) Rotation (0, 0, -59.9615)
+  Id: 267 Location: (-8423, -1855, 19.706) Rotation (0, 0, -180)
+  Id: 268 Location: (-10878, -2116, 19.706) Rotation (0, 0, 0)
+  Id: 266 Location: (-10468.8, 3468, 19.706) Rotation (0, 0, -180)
+  Id: 281 Location: (-4530.12, 774.486, 19.706) Rotation (0, 0, 41.7694)
+  Id: 285 Location: (-9876.42, -2116.3, 19.706) Rotation (0, 0, -0.199615)
+  Id: 276 Location: (-8689, 3468, 19.706) Rotation (0, 0, 180)
+  Id: 282 Location: (-11565, -1437, 19.706) Rotation (0, 0, -90)
+  Id: 277 Location: (-5056, 246.985, 19.706) Rotation (0, 0, -89.9999)
+  Id: 287 Location: (-8114, 3143, 19.706) Rotation (0, 0, -90)
+  Id: 278 Location: (-6034.05, -2116.06, 19.706) Rotation (0, 0, 1.76545)
+  Id: 283 Location: (-10197, 1830.16, 19.706) Rotation (0, 0, 89.9276)
+  Id: 279 Location: (-5056, -1322.1, 19.706) Rotation (0, 0, -90.0315)
+  Id: 286 Location: (-8364, 3143, 19.706) Rotation (0, 0, -90)
+  Id: 280 Location: (-5649.65, 3468, 19.8532) Rotation (3.16093e-06, -0.0017417, -180)
+  Id: 319 Location: (-9464.09, 2146.92, 178.804) Rotation (0, 0, 0)
+  Id: 332 Location: (-5249.44, 742.554, 176.304) Rotation (0, 0, 0)
+  Id: 320 Location: (-11511.7, -1605.76, 95.15) Rotation (0, 0, 0)
+  Id: 330 Location: (-8328.41, 2235.99, 95.15) Rotation (0, 0, 0)
+  Id: 321 Location: (-8166.81, 1891.4, 95.15) Rotation (0, 0, 0)
+  Id: 334 Location: (-8712.36, 2794.58, 266.804) Rotation (0, 0, 0)
+  Id: 322 Location: (-8356.86, 2076.57, 95.15) Rotation (0, 0, 0)
+  Id: 328 Location: (-10715.1, -630.543, 122.804) Rotation (0, 0, 0)
+  Id: 323 Location: (-11265.3, 2767.26, 178.804) Rotation (0, 0, 0)
+  Id: 333 Location: (-10334, 1693.27, 176.304) Rotation (0, 0, 0)
+  Id: 324 Location: (-6454.43, 3451.06, 57.15) Rotation (0, 0, 0)
+  Id: 329 Location: (-5723.6, 2317.18, 266.804) Rotation (0, 0, 0)
+  Id: 325 Location: (-4257.02, 1014.41, 57.15) Rotation (0, 0, 0)
+  Id: 331 Location: (-8028.26, 1298.36, 95.15) Rotation (0, 0, 0)
+  Id: 284 Location: (-6958.34, -2136.99, 19.706) Rotation (0, 0, 0.768204)
+  Id: 326 Location: (-11386.3, 2100.2, 67.15) Rotation (0, 0, 0)
+  Id: 318 Location: (-10497.7, -1483.92, 178.804) Rotation (0, 0, 0)
+  Id: 327 Location: (-8425.17, 2364.33, 67.15) Rotation (0, 0, 0)
+  Id: 301 Location: (-11265.3, 2767.26, 178.804) Rotation (0, 0, 0)
+  Id: 312 Location: (-8712.36, 2794.58, 266.804) Rotation (0, 0, 0)
+  Id: 291 Location: (-7565, 1830, 19.706) Rotation (0, 0, 90)
+  Id: 315 Location: (-10589.3, -2194.4, 95.15) Rotation (0, 0, 0)
+  Id: 300 Location: (-8356.86, 2076.57, 95.15) Rotation (0, 0, 0)
+  Id: 335 Location: (-11058.3, -1684.89, 178.804) Rotation (0, 0, 0)
+  Id: 336 Location: (-6297.08, 2477.26, 266.804) Rotation (0, 0, 0)
+  Id: 337 Location: (-10589.3, -2194.4, 95.15) Rotation (0, 0, 0)
+ State traffic lights: 0
+ Vehicle animations: 28
+  Id: 293 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 290 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 289 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 288 Steering: -0.00061556 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 292 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 272 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 270 Steering: -0.00061556 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 269 Steering: 0.15 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 271 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 273 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 274 Steering: 0.15 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 275 Steering: 0.15 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 267 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 268 Steering: 0 Throttle: 0 Brake 1 Handbrake: 0 Gear: 1
+  Id: 266 Steering: 0.0324505 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 281 Steering: 0.15 Throttle: 0 Brake 1 Handbrake: 0 Gear: 1
+  Id: 285 Steering: -0.0080495 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 276 Steering: 0 Throttle: 0 Brake 1 Handbrake: 0 Gear: 1
+  Id: 282 Steering: 0.15 Throttle: 0 Brake 1 Handbrake: 0 Gear: 1
+  Id: 277 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 287 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 278 Steering: -0.0256108 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 283 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 279 Steering: -0.15 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 286 Steering: 0 Throttle: 0 Brake 0.7 Handbrake: 0 Gear: 1
+  Id: 280 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 284 Steering: 0.00761407 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+  Id: 291 Steering: 0 Throttle: 0.85 Brake 0 Handbrake: 0 Gear: 1
+ Walker animations: 22
+  Id: 295 speed: 0
+  Id: 313 speed: 0
+  Id: 302 speed: 0
+  Id: 309 speed: 0
+  Id: 296 speed: 0
+  Id: 303 speed: 0
+  Id: 310 speed: 0
+  Id: 314 speed: 0
+  Id: 304 speed: 0
+  Id: 297 speed: 0
+  Id: 305 speed: 0
+  Id: 294 speed: 0
+  Id: 306 speed: 0
+  Id: 298 speed: 0
+  Id: 307 speed: 0
+  Id: 308 speed: 0
+  Id: 299 speed: 0
+  Id: 311 speed: 0
+  Id: 301 speed: 0
+  Id: 312 speed: 0
+  Id: 315 speed: 0
+  Id: 300 speed: 0
+ Vehicle light animations: 28
+  Id: 293 Position
+  Id: 290 Position
+  Id: 289 Position RightBlinker
+  Id: 288 Position RightBlinker
+  Id: 292 Position
+  Id: 272 Position
+  Id: 270 Position
+  Id: 269 Position
+  Id: 271 Position
+  Id: 273 Position
+  Id: 274 Position RightBlinker
+  Id: 275 Position
+  Id: 267 Position
+  Id: 268 Position Brake
+  Id: 266 Position
+  Id: 281 Position Brake RightBlinker
+  Id: 285 Position
+  Id: 276 Position Brake
+  Id: 282 Position Brake RightBlinker
+  Id: 277 Position
+  Id: 287 Position RightBlinker
+  Id: 278 Position
+  Id: 283 Position
+  Id: 279 Position
+  Id: 286 Position Brake RightBlinker
+  Id: 280 Position
+  Id: 284 Position RightBlinker
+  Id: 291 Position
+ Dynamic actors: 50
+  Id: 295 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 313 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 302 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 309 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 296 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 303 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 310 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 293 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 314 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 304 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 290 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 297 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 289 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 305 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 288 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 294 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 306 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 298 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 307 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 292 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 308 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 299 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 311 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 272 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 270 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 269 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 271 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 273 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 274 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 275 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 267 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 268 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 266 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 281 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 285 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 276 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 282 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 277 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 287 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 278 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 283 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 279 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 286 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 280 linear_velocity: (0.0455889, -8.22837e-07, -0.0921281) angular_velocity: (0.000120621, -0.172492, -8.0082e-05)
+  Id: 284 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 301 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 312 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 291 linear_velocity: (0, 0, -0.196) angular_velocity: (0, 0, 0)
+  Id: 315 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+  Id: 300 linear_velocity: (0, 0, 0) angular_velocity: (0, 0, 0)
+ Actor bounding boxes: 22
+  Id: 316 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 317 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 318 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 319 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 320 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 321 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 322 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 323 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 324 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 325 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 326 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 327 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 328 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 329 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 330 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 331 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 332 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 333 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 334 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 335 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 336 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+  Id: 337 origin: (-nan, -nan, -nan) extension: (-inf, -inf, -inf)
+ Current platform time: 1.24561
+
+Frames: 13
+Duration: 0.05628 seconds

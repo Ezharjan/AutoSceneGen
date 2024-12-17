@@ -1,0 +1,1 @@
+ Time: 17:34; Weather: Clear; VehicleStates: Congested; Vehicle: Bus, Taxi, Truck, Car; PedestrianCount: 12; PercentagePedestrianRunning: 0.25; VehicleDoors: Closed; Location: Istanbul, Turkey; Event: Traffic jam; Severity: Low.

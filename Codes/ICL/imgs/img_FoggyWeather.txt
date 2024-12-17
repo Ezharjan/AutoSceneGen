@@ -1,0 +1,1 @@
+ Time: 07:00; Weather: Foggy; VehicleStates: Moving; Vehicle: 3; PedestrianCount: 0; PercentagePedestrianRunning: 0.00; VehicleDoors: Closed; Location: On the road; Event: N/A; Severity: 0.

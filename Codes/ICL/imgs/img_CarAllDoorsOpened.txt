@@ -1,0 +1,1 @@
+ Time: 10:34; Weather: sunny; VehicleStates: moving; Vehicle: 2; PedestrianCount: 0; PercentagePedestrianRunning: 0; VehicleDoors: Closed; Location: highway; Event: a car with its trunk open is driving on the highway; Severity: low.
