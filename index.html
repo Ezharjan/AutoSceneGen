@@ -103,7 +103,7 @@
         </span>
         <!-- Dataset Link. -->
         <span class="link-block">
-          <a href="https://github.com/Ezharjan/AutoSceneGen/Dataset"
+          <a href="https://github.com/Ezharjan/AutoSceneGen/tree/master/Dataset"
             class="external-link button is-normal is-rounded is-dark" target="_blank">
             <span class="icon">
               <i class="fas fa-database"></i>
@@ -123,7 +123,7 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              Motion planning is a crucial component in autonomous driving. State-of-the-art motion planners are trained
+              <b>Motion planning</b> is a crucial component in autonomous driving. State-of-the-art motion planners are trained
               on meticulously curated datasets, which are not only expensive to annotate but also insufficient in
               capturing rarely seen critical scenarios. Failing to account for such scenarios poses a significant risk
               to motion planners and may lead to incidents during testing. An intuitive solution is to manually compose
@@ -132,14 +132,14 @@
               critical traffic scenarios to train more robust motion planners. First, we represent traffic scenarios as
               scripts, which are then used by the simulator to generate traffic scenarios. Next, we develop a method
               that accepts user-specified text descriptions, which a Large Language Model (LLM) translates into scripts
-              using in-context learning.
+              using <b>in-context learning</b>.
               The output scripts are sent to the simulator that produces the corresponding traffic scenarios. As our
-              method can generate abundant safety-critical traffic scenarios, we use them as synthetic training data for
+              method can <b>generate abundant safety-critical traffic scenarios</b>, we use them as synthetic training data for
               motion planners. To demonstrate the value of generated scenarios, we train existing motion planners on our
               synthetic data, real-world datasets, and a combination of both.
-              Our experiments show that motion planners trained with our data significantly outperform those trained
+              Our experiments show that motion planners trained with our data significantly <b>outperform those trained
               solely on real-world data, showing the usefulness of our synthetic data and the effectiveness of our data
-              generation method.
+              generation method</b>.
             </p>
           </div>
         </div>
