@@ -1,0 +1,6 @@
+.vscode
+.idea
+.env
+.cache
+/cache/
+.DS_store
