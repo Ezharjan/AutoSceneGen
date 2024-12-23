@@ -20,6 +20,7 @@ Welcome to the official code repository for "[Generating Traffic Scenarios via I
 ## 📰 News
 
 <!-- * [2024/12/29] 🚀 Paper is available on arXiv! -->
+* [2024/12/23] 🔥 [Paper](https://drive.google.com/file/d/1SPW6Vi58btXJCm2vEqb0iDb97ef4tXWN/view?usp=sharing) submitted to AAAI 2025 proceedings is uploaded for publicity.
 * [2024/12/17] 🔥 All source code and necessary dataset examples used in the AutoSceneGen framework experiments have been officially released.
 * [2024/12/09] 🌟 Paper proposing AutoSceneGen framework accepted by AAAI 2025 Main Track! 🎉 Cheers!
 * [2024/08/19] 🔥 Source code and the example datasets of AutoSceneGen framework are partially released!
