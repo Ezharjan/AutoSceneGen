@@ -3,7 +3,7 @@
 
 <h5 align="center">
 
-[![arXiv](https://img.shields.io/badge/AutoSceneGen-2412.COMING_SOON-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.COMING_SOON)
+[![arXiv](https://img.shields.io/badge/AutoSceneGen-2412.18086-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.18086)
 [![Website](https://img.shields.io/badge/🎤%20Project-Website-blue)](https://ezharjan.github.io/AutoSceneGen)
 [![License](https://img.shields.io/badge/⚖️%20Code%20License-MIT-yellow)](https://github.com/Ezharjan/blob/AutoSceneGen/master/LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/Ezharjan/AutoSceneGen.svg?style=social&label=Star&maxAge=60)](https://github.com/Ezharjan/AutoSceneGen)🔥🔥🔥
@@ -11,7 +11,7 @@
 
 </h5>
 
-Welcome to the official code repository for "[Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner **(AAAI 2025)**](https://arxiv.org/abs/2412.COMING_SOON)".
+Welcome to the official code repository for "[Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner **(AAAI 2025)**](https://arxiv.org/abs/2412.18086)".
 
 🔍 For more details, please refer to the project page: [https://ezharjan.github.io/AutoSceneGen/](https://ezharjan.github.io/AutoSceneGen/).
 
@@ -20,6 +20,7 @@ Welcome to the official code repository for "[Generating Traffic Scenarios via I
 ## 📰 News
 
 <!-- * [2024/12/29] 🚀 Paper is available on arXiv! -->
+* [2024/12/25] 🔥 Paper is available on [arxiv](https://arxiv.org/abs/2412.18086).
 * [2024/12/23] 🔥 [Paper](https://drive.google.com/file/d/1SPW6Vi58btXJCm2vEqb0iDb97ef4tXWN/view?usp=sharing) submitted to AAAI 2025 proceedings is uploaded for publicity.
 * [2024/12/17] 🔥 All source code and necessary dataset examples used in the AutoSceneGen framework experiments have been officially released.
 * [2024/12/09] 🌟 Paper proposing AutoSceneGen framework accepted by AAAI 2025 Main Track! 🎉 Cheers!
@@ -149,7 +150,7 @@ Please cite this work if the code is utilized or if the findings are referenced 
 @article{aizierjiang2024autoscene,
   title={Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner},
   author={Aizierjiang Aiersilan},
-  journal={arXiv preprint arXiv:2412.COMING_SOON},
+  journal={arXiv preprint arXiv:2412.18086},
   year={2024}
 }
 ```
