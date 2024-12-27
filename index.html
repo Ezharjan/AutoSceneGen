@@ -63,23 +63,24 @@
 
     <div class="column has-text-centered">
       <div class="publication-links">
-        <!-- PDF Link. -->
+        <!-- Paper Link. -->
         <span class="link-block">
-          <a href="https://drive.google.com/file/d/1SPW6Vi58btXJCm2vEqb0iDb97ef4tXWN/view?usp=sharing" class="external-link button is-normal is-rounded is-dark"
-            target="_blank">
+          <a href="https://drive.google.com/file/d/1SPW6Vi58btXJCm2vEqb0iDb97ef4tXWN/view?usp=sharing"
+            class="external-link button is-normal is-rounded is-dark" target="_blank">
             <span class="icon">
               <i class="fas fa-file-pdf"></i>
             </span>
             <span>Paper</span>
           </a>
         </span>
+        <!-- Appendix Link -->
         <span class="link-block">
-          <a href="https://arxiv.org/abs/2412.18086" class="external-link button is-normal is-rounded is-dark"
+          <a href="https://github.com/Ezharjan/AutoSceneGen/tree/master/Appendix.pdf" class="external-link button is-normal is-rounded is-dark"
             target="_blank">
             <span class="icon">
-              <i class="ai ai-arxiv"></i>
+              <i class="fas fa-file-alt"></i>
             </span>
-            <span>arXiv</span>
+            <span>Appendix</span>
           </a>
         </span>
         <!-- Video Link. -->
@@ -92,6 +93,16 @@
             <span>Video</span>
           </a>
         </span>
+        <!-- Dataset Link. -->
+        <span class="link-block">
+          <a href="https://github.com/Ezharjan/AutoSceneGen/tree/master/Dataset"
+            class="external-link button is-normal is-rounded is-dark" target="_blank">
+            <span class="icon">
+              <i class="fas fa-database"></i>
+            </span>
+            <span>Dataset</span>
+          </a>
+        </span>
         <!-- Code Link. -->
         <span class="link-block">
           <a href="https://github.com/Ezharjan/AutoSceneGen" class="external-link button is-normal is-rounded is-dark"
@@ -102,14 +113,14 @@
             <span>Code</span>
           </a>
         </span>
-        <!-- Dataset Link. -->
+        <!-- Arxiv Link. -->
         <span class="link-block">
-          <a href="https://github.com/Ezharjan/AutoSceneGen/tree/master/Dataset"
-            class="external-link button is-normal is-rounded is-dark" target="_blank">
+          <a href="https://arxiv.org/abs/2412.18086" class="external-link button is-normal is-rounded is-dark"
+            target="_blank">
             <span class="icon">
-              <i class="fas fa-database"></i>
+              <i class="ai ai-arxiv"></i>
             </span>
-            <span>Dataset</span>
+            <span>arXiv</span>
           </a>
         </span>
       </div>
@@ -124,8 +135,9 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              <b>Motion planning</b> is a crucial component in autonomous driving. State-of-the-art motion planners are trained
-              on meticulously curated datasets, which are not only expensive to annotate but also insufficient in
+              <b>Motion planning</b> is a crucial component in autonomous driving. State-of-the-art motion planners are
+              trained on meticulously curated datasets, which are not only expensive to annotate but also insufficient
+              in
               capturing rarely seen critical scenarios. Failing to account for such scenarios poses a significant risk
               to motion planners and may lead to incidents during testing. An intuitive solution is to manually compose
               such scenarios by programming and executing a simulator (e.g., CARLA). However, this approach incurs
@@ -135,12 +147,13 @@
               that accepts user-specified text descriptions, which a Large Language Model (LLM) translates into scripts
               using <b>in-context learning</b>.
               The output scripts are sent to the simulator that produces the corresponding traffic scenarios. As our
-              method can <b>generate abundant safety-critical traffic scenarios</b>, we use them as synthetic training data for
+              method can <b>generate abundant safety-critical traffic scenarios</b>, we use them as synthetic training
+              data for
               motion planners. To demonstrate the value of generated scenarios, we train existing motion planners on our
               synthetic data, real-world datasets, and a combination of both.
               Our experiments show that motion planners trained with our data significantly <b>outperform those trained
-              solely on real-world data, showing the usefulness of our synthetic data and the effectiveness of our data
-              generation method</b>.
+                solely on real-world data, showing the usefulness of our synthetic data and the effectiveness of our
+                data generation method</b>.
             </p>
           </div>
         </div>
