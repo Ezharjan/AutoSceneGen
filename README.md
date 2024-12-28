@@ -20,6 +20,7 @@ Welcome to the official code repository for "[Generating Traffic Scenarios via I
 ## 📰 News
 
 <!-- * [2024/12/29] 🚀 Paper is available on arXiv! -->
+* [2024/12/28] 🔥 Brief audio presentation of the paper is available at [this site](https://ezharjan.github.io/AutoSceneGen/audio.html).
 * [2024/12/27] 🔥 Appendix of the main paper is available here in this repository.
 * [2024/12/25] 🔥 Paper is available on [arxiv](https://arxiv.org/abs/2412.18086).
 * [2024/12/23] 🔥 [Paper](https://drive.google.com/file/d/1SPW6Vi58btXJCm2vEqb0iDb97ef4tXWN/view?usp=sharing) submitted to AAAI 2025 proceedings is uploaded for publicity.
