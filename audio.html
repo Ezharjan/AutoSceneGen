@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoSceneGen - Audio</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .title h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .title h2,
+        .title h3 {
+            margin: 5px 0;
+            font-size: 1em;
+            font-weight: normal;
+        }
+
+        .audio-controls {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .play-pause,
+        .stop {
+            font-size: 24px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .home {
+            font-size: 35px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 5px;
+            color: orange;
+            background: none;
+            border: none;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: #76c7c0;
+            width: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Generating Traffic Scenarios via In-Context Learning</h1>
+        <h1>to Learn Better Motion Planner</h1>
+        <h2>AAAI 2025</h2>
+        <h3><a href="https://ezharjan.github.io" target="_blank">Aizierjiang Aiersilan</a></h3>
+        <!-- <h3>University of Macau</h3> -->
+    </div>
+    <div class="audio-controls">
+        <a href="https://ezharjan.github.io/AutoSceneGen/AutoSceneGen_brief.wav" class="download" download>Download Audio File</a>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <div class="buttons">
+            <button class="stop">Stop</button>
+            <button class="home" onclick="window.location.href='https://ezharjan.github.io/AutoSceneGen/'">🏠</button>
+            <button class="play-pause">Play</button>
+        </div>
+    </div>
+    <audio id="audio" src="./AutoSceneGen_brief.wav"></audio>
+    <script>
+        const audio = document.getElementById('audio');
+        const playPauseButton = document.querySelector('.play-pause');
+        const stopButton = document.querySelector('.stop');
+        const progressBar = document.querySelector('.progress-bar');
+        const progress = document.querySelector('.progress');
+        const downloadButton = document.querySelector('.download');
+
+        playPauseButton.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+                playPauseButton.textContent = 'Pause';
+            } else {
+                audio.pause();
+                playPauseButton.textContent = 'Play';
+            }
+        });
+
+        stopButton.addEventListener('click', () => {
+            audio.pause();
+            audio.currentTime = 0;
+            playPauseButton.textContent = 'Play';
+        });
+
+        audio.addEventListener('timeupdate', () => {
+            const progressPercent = (audio.currentTime / audio.duration) * 100;
+            progress.style.width = progressPercent + '%';
+        });
+
+        audio.addEventListener('ended', () => {
+            playPauseButton.textContent = 'Play';
+        });
+
+        progressBar.addEventListener('click', (e) => {
+            const rect = progressBar.getBoundingClientRect();
+            const offsetX = e.clientX - rect.left;
+            const newTime = (offsetX / progressBar.offsetWidth) * audio.duration;
+            audio.currentTime = newTime;
+        });
+    </script>
+</body>
+
+</html>
