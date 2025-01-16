@@ -150,11 +150,11 @@ I would like to express my deepest gratitude to the open-source communities behi
 Please cite this work if the code is utilized or if the findings are referenced in your research:
 
 ```
-@article{aizierjiang2024autoscene,
+@article{aizierjiang2025autoscene,
   title={Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner},
   author={Aizierjiang Aiersilan},
   journal={arXiv preprint arXiv:2412.18086},
-  year={2024}
+  year={2025}
 }
 ```
 
