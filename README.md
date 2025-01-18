@@ -20,7 +20,7 @@ Welcome to the official code repository for "[Generating Traffic Scenarios via I
 ## 📰 News
 
 <!-- * [2025/03/08] 🚀 Paper is available on AAAI proceedings official website! -->
-* [2025/01/18] 🌟 The paper has been selected for **oral presentation** (only near the top 5% out of 12,957 submissions)! 🎉 See you at [Philadelphia](https://aaai.org/conference/aaai/aaai-25/)!
+* [2025/01/18] 🌟 The paper has been selected for **oral presentation** (only top 5% out of 12,957 submissions)! 🎉 See you at [Philadelphia](https://aaai.org/conference/aaai/aaai-25/)!
 * [2024/12/29] 🎥 Brief video presentation of the paper is available [on Youtube](https://youtu.be/f420qMlwyTs), and the distributable video file can be downloaded [here](https://ezharjan.github.io/AutoSceneGen/AutoSceneGen_forDistribution.mp4).
 * [2024/12/28] 🎧 Brief audio presentation of the paper is available at [this site](https://ezharjan.github.io/AutoSceneGen/audio.html).
 * [2024/12/27] 📑 [Appendix](https://github.com/Ezharjan/AutoSceneGen/tree/master/Appendix.pdf) of the main paper is available here in this repository.
