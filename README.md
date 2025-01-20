@@ -11,7 +11,7 @@
 
 </h5>
 
-Welcome to the official code repository for "[Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner **(AAAI 2025)**](https://arxiv.org/abs/2412.18086)".
+Welcome to the official code repository for "[Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner **(AAAI 2025 Oral)**](https://arxiv.org/abs/2412.18086)".
 
 🔍 For more details, please refer to the project page: [https://ezharjan.github.io/AutoSceneGen/](https://ezharjan.github.io/AutoSceneGen/).
 
