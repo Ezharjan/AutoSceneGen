@@ -133,6 +133,16 @@
             <span>arXiv</span>
           </a>
         </span>
+        <!-- Poster Link. -->
+        <span class="link-block">
+          <a href="https://ezharjan.github.io/AutoSceneGen/AutoSceneGen_Poster.pdf" class="external-link button is-normal is-rounded is-dark"
+            target="_blank">
+            <span class="icon">
+              <i class="fas fa-file-image"></i>
+            </span>
+            <span>Poster</span>
+          </a>
+        </span>
       </div>
     </div>
   </section>
@@ -177,21 +187,214 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <!-- <h2 class="title is-3">Framework</h2> -->
+          <h2 class="title is-3">AutoSceneGen Framework</h2>
           <img src="./static/images/framework.jpg" alt="Descriptive Alt Text" style="width: 100%;">
+          <div class="content has-text-justified">
+            <p>
+              <b>Figure 1. Architecture Overview</b>. It begins with the user inputting a scenario description, which is managed by the <i>Exception Handler</i> to block adversarial or irrelevant inputs, ensuring the framework operates within scope and prevents downstream issues. The <i>Filter</i> processes the description, replacing simulator-incompatible terms with those aligned to the simulator's documented APIs. The filtered description (<i>Desc.'</i>) is combined with pre-constructed ICL exemplars, which can be zero-shot, one-shot, or few-shot in category, depending on the LLM's familiarity with the simulator's APIs and the complexity of the scenario. The LLM generates a response containing scenario configurations, often accompanied by explanations and comments. The "Validator" verifies each API call for compatibility, replacing unsupported terms with suitable alternatives (e.g., replacing "storm," unsupported in CARLA, with "rain") or ignoring them to prevent errors. This ensures all calls align with the simulator's capabilities, enabling execution of the final configuration file. The simulator runs the scenario, with the final step depicting the interaction between the real world and the virtual environment, while data collection can take place either inside the simulator or externally.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <!--/ Framework. -->
 
+  <!-- Results. -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Results</h2>
+          <div class="content has-text-justified">
+            <p>
+              This study addresses the challenge by leveraging LLMs' ICL capabilities to generate tailored configurations for rare scenarios, streamlining the ideation and scenario creation processes. 
+            </p>
+          </div>
+          <div class="image-gallery">
+            <img src="./static/images/rare_scene2.png" alt="Rare scene 1" style="width: 24%; margin-right: 0.3%;">
+            <img src="./static/images/rare_scene8.png" alt="Rare scene 2" style="width: 24%; margin-right: 0.3%;">
+            <img src="./static/images/rare_scene7.png" alt="Rare scene 3" style="width: 24%; margin-right: 0.3%;">
+            <img src="./static/images/rare_scene9.png" alt="Rare scene 4" style="width: 24%;">
+          </div>
+          <div class="content has-text-justified">
+            <p>
+              <b>Figure 2</b>. Images captured at four distinct timestamps and locations, corresponding to input scenario description: “In downtown area, during a drizzly noon, there are vehicles malfunctioning windshield wipers and some of the vehicles' doors are open. Some vehicles exhibit negligent driving behavior, compromising visibility in wet conditions. There are 10 pedestrians on the road, with 50% of the pedestrian running. No one was hurt and no accident happened since all the vehicles except the malfunctioning one obeyed the traffic rules.”
+            </p>
+          </div>
+
+        <!-- Comparisons Section -->
+        <div class="content has-text-justified">
+          <h3 class="title is-4">Comparisons</h3>
+          <p>
+            Without modifying the original trajectory prediction network, our dataset achieved superior results with reduced displacement error for each traffic participant type, as shown in Table 1. In various epochs, the dataset collected from AutoSceneGen demonstrated the highest accuracy in trajectory prediction, as illustrated in Figure 2. Moreover, combining our dataset with ApolloScapes improved overall performance, enhancing all trajectory prediction metrics by incorporating diverse scenarios and extensive data.
+          </p>
+
+          <table>
+            <caption>
+              <div style="text-align: justify;">
+              <b>Table 1</b>. The comparison results of the ApolloScapes dataset, collected from AutoSceneGen (Ours), and the two datasets combined are presented. The term "ApolloScapes Dataset" is abbreviated as "A.S." in the table. Lower metrics indicate better performance.
+              </div>
+            </caption>
+            <thead>
+              <tr>
+                <th>Dataset</th>
+                <th>Method</th>
+                <th>TAE</th>
+                <th>ADEv</th>
+                <th>ADEp</th>
+                <th>ADEb</th>
+                <th>TFE</th>
+                <th>FDEv</th>
+                <th>FDEp</th>
+                <th>FDEb</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>A.S.</td>
+                <td>TrafficPredict</td>
+                <td>0.085</td>
+                <td>0.080</td>
+                <td>0.091</td>
+                <td>0.083</td>
+                <td>0.141</td>
+                <td>0.131</td>
+                <td>0.150</td>
+                <td>0.139</td>
+              </tr>
+              <tr>
+                <td>A.S. + Ours</td>
+                <td>TrafficPredict</td>
+                <td>0.053</td>
+                <td>0.085</td>
+                <td>0.058</td>
+                <td>0.065</td>
+                <td>0.076</td>
+                <td>0.114</td>
+                <td>0.092</td>
+                <td>0.094</td>
+              </tr>
+              <tr>
+                <td>Ours</td>
+                <td>TrafficPredict</td>
+                <td>0.033</td>
+                <td>0.088</td>
+                <td>0.020</td>
+                <td>0.047</td>
+                <td>0.058</td>
+                <td>0.135</td>
+                <td>0.037</td>
+                <td>0.077</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="image-gallery">
+          <img src="./static/images/abc_epoch_127.png" alt="Epoch 127" style="width: 23%; margin-right: 1%;">
+          <img src="./static/images/abc_epoch_147.png" alt="Epoch 147" style="width: 23%; margin-right: 1%;">
+          <img src="./static/images/abc_epoch_160.png" alt="Epoch 160" style="width: 23%; margin-right: 1%;">
+          <img src="./static/images/abc_epoch_200.png" alt="Epoch 200" style="width: 23%;">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            <b>Figure 3</b>. The comparison of all metrics between the datasets collected via AutoSceneGen (Blue), ApolloScapes (Orange; A.S.), and the combination of the two datasets (Green) across different epochs is shown. While the dataset collected purely from AutoSceneGen outperforms A.S. in some epochs, such as epoch 127, the combination of AutoSceneGen and A.S. demonstrates better overall results. Due to the distinct distribution of traffic participants in the two datasets, sharper peaks for FDE-vehicle and ADE-vehicle are shown. However, the combination achieves reasonable values overall. In this experiment, A.S. has a total of 3,917 frames, AutoSceneGen has 17,919 frames, and the combined AutoSceneGen + A.S. has 27,605 frames.
+          </p>
+        </div>
+
+        <div class="content has-text-justified">
+          </table>
+          <p>
+            The comparison results of the NGSIM dataset, the dataset collected from AutoSceneGen (ours), and the combination of the two datasets are presented.
+          </p>
+          <table>
+            <caption>
+              <div style="text-align: justify;">
+                <b>Table 2</b>. The comparison results of the NGSIM dataset, the dataset collected from AutoSceneGen (ours), and the combination of the two datasets are shown. When replacing the NGSIM dataset with ours, the ADE and FDE values are much higher (worse) than when using the original NGSIM dataset. However, when we combine the two datasets—NGSIM and ours—the ADE and FDE decrease and outperform the results obtained from using the NGSIM dataset alone.
+              </div>
+            </caption>
+            <thead>
+              <tr>
+                <th>Dataset</th>
+                <th>Method</th>
+                <th>ADE</th>
+                <th>FDE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>NGSIM</td>
+                <td>Pihgu</td>
+                <td>0.88</td>
+                <td>1.96</td>
+              </tr>
+              <tr>
+                <td>Ours</td>
+                <td>Pihgu</td>
+                <td>7.98</td>
+                <td>15.43</td>
+              </tr>
+              <tr>
+                <td>NGSIM train-set + Ours</td>
+                <td>Pihgu</td>
+                <td>0.84</td>
+                <td>1.87</td>
+              </tr>
+              <tr>
+                <td>ETH/UCY</td>
+                <td>Pihgu</td>
+                <td>1.10</td>
+                <td>2.24</td>
+              </tr>
+              <tr>
+                <td>Ours</td>
+                <td>Pihgu</td>
+                <td>1.48</td>
+                <td>2.70</td>
+              </tr>
+              <tr>
+                <td>ETH/UCY train-set + Ours</td>
+                <td>Pihgu</td>
+                <td>0.79</td>
+                <td>1.50</td>
+              </tr>
+              <tr>
+                <td>VIRAT/ActEV</td>
+                <td>Pihgu</td>
+                <td>14.11</td>
+                <td>27.96</td>
+              </tr>
+              <tr>
+                <td>Ours</td>
+                <td>Pihgu</td>
+                <td>16.05</td>
+                <td>31.09</td>
+              </tr>
+              <tr>
+                <td>VIRAT/ActEV + Ours</td>
+                <td>Pihgu</td>
+                <td>15.32</td>
+                <td>29.65</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+    </div>
+    <!-- End Comparisons Section -->
+    </div>
+  </section>
+  <!--/ Results. -->
+  
   <!-- Video Embedding. -->
   <section class="section">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <hr>
-          <!-- <h2 class="title is-3">Video</h2> -->
+          <h2 class="title is-3">Video</h2>
           <div class="publication-video">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/f420qMlwyTs?si=vGJ4SlR2Yqk1P9Zb"
               title="YouTube video player" frameborder="0"
@@ -205,6 +408,24 @@
   </section>
   <!--/ Video Embedding. -->
 
+  <!-- Poster Preview Section -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <hr>
+          <h2 class="title is-3">Poster</h2>
+          <div class="publication-pdf" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #f0f0f0;">
+            <iframe src="./AutoSceneGen_Poster.pdf" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+            <br>
+            <a href="./AutoSceneGen_Poster.pdf" download>Download PDF</a>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+  </section>
+  <!--/ Poster Preview Section -->
 
   <section class="section" id="BibTeX">
     <div class="columns is-centered has-text-centered">
