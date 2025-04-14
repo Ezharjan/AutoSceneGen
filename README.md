@@ -6,7 +6,7 @@
 [![arXiv](https://img.shields.io/badge/AutoSceneGen-2412.18086-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2412.18086)
 [![Website](https://img.shields.io/badge/🎤%20Project-Website-blue)](https://ezharjan.github.io/AutoSceneGen)
 [![License](https://img.shields.io/badge/⚖️%20Code%20License-MIT-yellow)](https://github.com/Ezharjan/AutoSceneGen/blob/master/LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/Ezharjan/AutoSceneGen.svg?style=social&label=Star&maxAge=60)](https://github.com/Ezharjan/AutoSceneGen)🔥🔥🔥
+
  <br>
 
 </h5>
