@@ -11,7 +11,7 @@
 
 </h5>
 
-Welcome to the official code repository for "[Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner **(AAAI 2025 Oral)**](https://arxiv.org/abs/2412.18086)".
+Welcome to the official code repository for "[Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner **(AAAI 2025 Oral)**](https://doi.org/10.1609/aaai.v39i14.33593)".
 
 🔍 For more details, please refer to the project page: [https://ezharjan.github.io/AutoSceneGen/](https://ezharjan.github.io/AutoSceneGen/).
 
@@ -19,7 +19,7 @@ Welcome to the official code repository for "[Generating Traffic Scenarios via I
 
 ## 📰 News
 
-<!-- * [2025/03/08] 🚀 Paper is available on AAAI proceedings official website! -->
+* [2025/04/30] 🚀 [Paper](https://doi.org/10.1609/aaai.v39i14.33593) is available on AAAI proceedings official website!
 * [2025/02/11] 🌐 [Project website](https://ezharjan.github.io/AutoSceneGen/) has been updated with more materials!
 * [2025/02/10] 🎤 [Oral presentation](https://youtu.be/MHp3Xg5QovM) of the paper has been pre-recorded and uploaded!
 * [2025/01/27] 🖼️ [Poster](https://ezharjan.github.io/AutoSceneGen/AutoSceneGen_Poster.pdf) of the paper has been uploaded and [project website](https://ezharjan.github.io/AutoSceneGen/) has been updated!
@@ -154,10 +154,13 @@ I would like to express my deepest gratitude to the open-source communities behi
 Please cite this work if the code is utilized or if the findings are referenced in your research:
 
 ```
-@article{aizierjiang2025autoscene,
+@inproceedings{aiersilan2025generating,
   title={Generating Traffic Scenarios via In-Context Learning to Learn Better Motion Planner},
-  author={Aizierjiang Aiersilan},
-  journal={arXiv preprint arXiv:2412.18086},
+  author={Aiersilan, Aizierjiang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={14},
+  pages={14539--14547},
   year={2025}
 }
 ```
